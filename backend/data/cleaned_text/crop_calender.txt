@@ -1,0 +1,1509 @@
+State: Andhra Pradesh
+Crop Name: Kharif Paddy
+Sowing Period: May June
+Harvesting Period: Nov Dec
+
+---
+
+State: Andhra Pradesh
+Crop Name: Rabi Paddy
+Sowing Period: Nov Dec
+Harvesting Period: May June
+
+---
+
+State: Andhra Pradesh
+Crop Name: Summer Paddy
+Sowing Period: March April
+Harvesting Period: July Aug
+
+---
+
+State: Assam
+Crop Name: Kharif Paddy
+Sowing Period: Feb March
+Harvesting Period: June July
+
+---
+
+State: Assam
+Crop Name: Rabi Paddy
+Sowing Period: June July
+Harvesting Period: Nov Dec
+
+---
+
+State: Bihar
+Crop Name: Kharif Paddy
+Sowing Period: Jun Sept
+Harvesting Period: April May
+
+---
+
+State: Bihar
+Crop Name: Rabi Paddy
+Sowing Period: Oct Nov
+Harvesting Period: April May
+
+---
+
+State: Bihar
+Crop Name: Summer Paddy
+Sowing Period: Feb March
+Harvesting Period: July Aug
+
+---
+
+State: Gujarat
+Crop Name: Kharif Paddy
+Sowing Period: June July
+Harvesting Period: Oct Nov
+
+---
+
+State: Haryana
+Crop Name: Kharif Paddy
+Sowing Period: June July
+Harvesting Period: Sept Oct
+
+---
+
+State: Karnataka
+Crop Name: Kharif Paddy
+Sowing Period: May June
+Harvesting Period: Sept Oct
+
+---
+
+State: Karnataka
+Crop Name: Rabi Paddy
+Sowing Period: Sept Oct
+Harvesting Period: Jan Feb
+
+---
+
+State: Karnataka
+Crop Name: Summer Paddy
+Sowing Period: Jan Feb
+Harvesting Period: May June
+
+---
+
+State: Kerala
+Crop Name: Kharif Paddy
+Sowing Period: April May
+Harvesting Period: Sept Oct
+
+---
+
+State: Kerala
+Crop Name: Rabi Paddy
+Sowing Period: Sept Oct
+Harvesting Period: Dec Jan
+
+---
+
+State: Kerala
+Crop Name: Summer Paddy
+Sowing Period: Dec Jan
+Harvesting Period: March April
+
+---
+
+State: Madhya Pradesh
+Crop Name: Kharif Paddy
+Sowing Period: June July
+Harvesting Period: Oct Nov
+
+---
+
+State: Maharashtra
+Crop Name: Kharif Paddy
+Sowing Period: June July
+Harvesting Period: Oct Nov
+
+---
+
+State: Orissa
+Crop Name: Kharif Paddy
+Sowing Period: May June
+Harvesting Period: Sept Oct
+
+---
+
+State: Orissa
+Crop Name: Rabi Paddy
+Sowing Period: June July
+Harvesting Period: Nov Dec
+
+---
+
+State: Punjab
+Crop Name: Kharif Paddy
+Sowing Period: May Oct
+Harvesting Period: April May
+
+---
+
+State: Rajasthan
+Crop Name: Kharif Paddy
+Sowing Period: June July
+Harvesting Period: Oct Nov
+
+---
+
+State: Uttar Pradesh
+Crop Name: Kharif Paddy
+Sowing Period: June July
+Harvesting Period: Oct Nov
+
+---
+
+State: Uttar Pradesh
+Crop Name: Rabi Paddy
+Sowing Period: Nov Dec
+Harvesting Period: April May
+
+---
+
+State: West Bengal
+Crop Name: Kharif Paddy
+Sowing Period: June July
+Harvesting Period: Oct Nov
+
+---
+
+State: All India
+Crop Name: Kharif Paddy
+Sowing Period: May Aug
+Harvesting Period: Sep Jan
+
+---
+
+State: All India
+Crop Name: Rabi Paddy
+Sowing Period: Dec Jan
+Harvesting Period: April May
+
+---
+
+State: Assam
+Crop Name: Rabi Wheat
+Sowing Period: Nov(B) Dec(M)
+Harvesting Period: Mar(B) Apr(E)
+
+---
+
+State: Bihar
+Crop Name: Rabi Wheat
+Sowing Period: Nov(M) Dec(E)
+Harvesting Period: Mar(M) Apr(E)
+
+---
+
+State: Gujarat
+Crop Name: Rabi Wheat
+Sowing Period: Oct(B) Nov(E)
+Harvesting Period: Feb(B) Mar(E)
+
+---
+
+State: Haryana
+Crop Name: Rabi Wheat
+Sowing Period: Oct(E) Dec(B)
+Harvesting Period: Apr(M) Apr(E)
+
+---
+
+State: Himachal Pradesh
+Crop Name: Rabi Wheat
+Sowing Period: Oct(B) Nov(E)
+Harvesting Period: Apr(M) Jun(E)
+
+---
+
+State: Jammu & Kashmir
+Crop Name: Rabi Wheat
+Sowing Period: Oct(B) Dec(E)
+Harvesting Period: May(B) May(E)
+
+---
+
+State: Karnataka
+Crop Name: Rabi Wheat
+Sowing Period: Oct(B) Dec(E)
+Harvesting Period: Jan(B) Feb(E)
+
+---
+
+State: Madhya Pradesh
+Crop Name: Rabi Wheat
+Sowing Period: Oct(M) Dec(E)
+Harvesting Period: Feb(M) Apr(E)
+
+---
+
+State: Maharashtra
+Crop Name: Rabi Wheat
+Sowing Period: Oct(B) Dec(E)
+Harvesting Period: Feb(B) Mar(E)
+
+---
+
+State: Orissa
+Crop Name: Rabi Wheat
+Sowing Period: Oct Nov
+Harvesting Period: Mar Apr
+
+---
+
+State: Punjab
+Crop Name: Rabi Wheat
+Sowing Period: Oct(B) Nov(E)
+Harvesting Period: Apr(B) May(E)
+
+---
+
+State: Rajasthan
+Crop Name: Rabi Wheat
+Sowing Period: Nov(B) Dec(E)
+Harvesting Period: Mar(B) May(E)
+
+---
+
+State: Uttar Pradesh
+Crop Name: Rabi Wheat
+Sowing Period: Oct(B) Jan(M)
+Harvesting Period: Apr(B) Apr(M)
+
+---
+
+State: West Bengal
+Crop Name: Rabi Wheat
+Sowing Period: Nov(B) Dec(E)
+Harvesting Period: Mar(B) Apr(E)
+
+---
+
+State: All India
+Crop Name: Rabi Wheat
+Sowing Period: Oct Dec
+Harvesting Period: Feb Jun
+
+---
+
+State: Andhra Pradesh
+Crop Name: Kharif Bajra
+Sowing Period: Jun(B) Jul(M)
+Harvesting Period: Aug(B) Oct(B)
+
+---
+
+State: Gujarat
+Crop Name: Kharif Bajra
+Sowing Period: Jun(B) Jul(E)
+Harvesting Period: Sep(B) Nov(E)
+
+---
+
+State: Gujarat
+Crop Name: Summer Bajra
+Sowing Period: Feb(B) Feb(E)
+Harvesting Period: May(B) May(E)
+
+---
+
+State: Haryana
+Crop Name: Kharif Bajra
+Sowing Period: Jun(M) Jul(B)
+Harvesting Period: Oct(M) Nov(M)
+
+---
+
+State: Karnataka
+Crop Name: Kharif Bajra
+Sowing Period: Jul(B) Sep(E)
+Harvesting Period: Oct(B) Nov(E)
+
+---
+
+State: Karnataka
+Crop Name: Summer Bajra
+Sowing Period: Jan(B) Feb(E)
+Harvesting Period: Apr(B) May(E)
+
+---
+
+State: Madhya Pradesh
+Crop Name: Kharif Bajra
+Sowing Period: Jun(M) Jul(E)
+Harvesting Period: Sep(E) Dec(M)
+
+---
+
+State: Maharashtra
+Crop Name: Kharif Bajra
+Sowing Period: Jun(B) Jul(E)
+Harvesting Period: Sep(B) Oct(E)
+
+---
+
+State: Rajasthan
+Crop Name: Kharif Bajra
+Sowing Period: Jun(B) Jul(E)
+Harvesting Period: Sep(B) Oct(E)
+
+---
+
+State: Uttar Pradesh
+Crop Name: Kharif Bajra
+Sowing Period: Jun(B) Jul(E)
+Harvesting Period: Oct(B) Nov(M)
+
+---
+
+State: All India
+Crop Name: Kharif Bajra
+Sowing Period: Jun Jul
+Harvesting Period: Sep Nov
+
+---
+
+State: All India
+Crop Name: Summer Bajra
+Sowing Period: Jan Feb
+Harvesting Period: Apr May
+
+---
+
+State: Andhra Pradesh
+Crop Name: Kharif Maize
+Sowing Period: Jun(M) Jul(M)
+Harvesting Period: Sep(M) Oct(E)
+
+---
+
+State: Andhra Pradesh
+Crop Name: Rabi Maize
+Sowing Period: Oct(E) Jan(M)
+Harvesting Period: Feb(E) May(B)
+
+---
+
+State: Bihar
+Crop Name: Kharif Maize
+Sowing Period: Jun(M) Jul(B)
+Harvesting Period: Nov(B) Dec(E)
+
+---
+
+State: Bihar
+Crop Name: Rabi Maize
+Sowing Period: Oct(M) Nov(M)
+Harvesting Period: Feb(B) Mar(B)
+
+---
+
+State: Gujarat
+Crop Name: Kharif Maize
+Sowing Period: Jun(B) Jul(E)
+Harvesting Period: Sep(B) Nov(E)
+
+---
+
+State: Haryana
+Crop Name: Kharif Maize
+Sowing Period: Jul(M) Aug(B)
+Harvesting Period: Oct(M) Oct(E)
+
+---
+
+State: Himachal Pradesh
+Crop Name: Kharif Maize
+Sowing Period: May(M) Jun(E)
+Harvesting Period: Sep(M) Oct(M)
+
+---
+
+State: Karnataka
+Crop Name: Kharif Maize
+Sowing Period: May(B) Jun(E)
+Harvesting Period: Sep(B) Oct(E)
+
+---
+
+State: Karnataka
+Crop Name: Rabi Maize
+Sowing Period: Sep(B) Oct(E)
+Harvesting Period: Jan(B) Mar(E)
+
+---
+
+State: Madhya Pradesh
+Crop Name: Kharif Maize
+Sowing Period: Jun(M) Jul(E)
+Harvesting Period: Aug(M) Dec(E)
+
+---
+
+State: Maharashtra
+Crop Name: Kharif Maize
+Sowing Period: Jul(B) Aug(E)
+Harvesting Period: Oct(B) Nov(E)
+
+---
+
+State: Orissa
+Crop Name: Kharif Maize
+Sowing Period: Jun Jul
+Harvesting Period: Sep Oct
+
+---
+
+State: Punjab
+Crop Name: Kharif Maize
+Sowing Period: May(B) Jun(E)
+Harvesting Period: Sep(B) Oct(E)
+
+---
+
+State: Rajasthan
+Crop Name: Kharif Maize
+Sowing Period: Jun(B) Jul(E)
+Harvesting Period: Oct(B) Nov(E)
+
+---
+
+State: Uttar Pradesh
+Crop Name: Kharif Maize
+Sowing Period: Jun(B) Jul(E)
+Harvesting Period: Sep(B) Sep(E)
+
+---
+
+State: West Bengal
+Crop Name: Kharif Maize
+Sowing Period: Mar(B) May(E)
+Harvesting Period: Jun(B) Aug(E)
+
+---
+
+State: West Bengal
+Crop Name: Rabi Maize
+Sowing Period: Nov(B) Nov(E)
+Harvesting Period: Mar(B) Mar(E)
+
+---
+
+State: All India
+Crop Name: Kharif Maize
+Sowing Period: Mar Jul
+Harvesting Period: Sep Dec
+
+---
+
+State: All India
+Crop Name: Rabi Maize
+Sowing Period: Sep Jan
+Harvesting Period: Jan May
+
+---
+
+State: Andhra Pradesh
+Crop Name: Kharif Cotton
+Sowing Period: Jun(E) Jul(E)
+Harvesting Period: Dec(E) Mar(M)
+
+---
+
+State: Gujarat
+Crop Name: Kharif Cotton
+Sowing Period: May(B) May(E)
+Harvesting Period: Oct(B) Apr(E)
+
+---
+
+State: Haryana
+Crop Name: Kharif Cotton
+Sowing Period: Apr(B) Apr(M)
+Harvesting Period: Oct(M) Nov(M)
+
+---
+
+State: Karnataka
+Crop Name: Kharif Cotton
+Sowing Period: May(B) Jun(E)
+Harvesting Period: Sep(B) Oct(E)
+
+---
+
+State: Kerala
+Crop Name: Kharif Cotton
+Sowing Period: Jun(B) Oct(E)
+Harvesting Period: Dec(B) Mar(E)
+
+---
+
+State: Madhya Pradesh
+Crop Name: Kharif Cotton
+Sowing Period: Jun(M) Jul(E)
+Harvesting Period: Aug(M) Dec(E)
+
+---
+
+State: Maharashtra
+Crop Name: Kharif Cotton
+Sowing Period: Jul(B) Aug(E)
+Harvesting Period: Oct(B) Nov(E)
+
+---
+
+State: Punjab
+Crop Name: Kharif Cotton
+Sowing Period: Apr(B) Mar(E)
+Harvesting Period: Sep(B) Oct(E)
+
+---
+
+State: Rajasthan
+Crop Name: Kharif Cotton
+Sowing Period: Apr(B) May(E)
+Harvesting Period: Nov(B) Dec(E)
+
+---
+
+State: Uttar Pradesh
+Crop Name: Kharif Cotton
+Sowing Period: Apr(B) Jun(E)
+Harvesting Period: Sep(B) Nov(E)
+
+---
+
+State: All India
+Crop Name: Kharif Cotton
+Sowing Period: Apr Jul
+Harvesting Period: Sep Dec
+
+---
+
+State: Andhra Pradesh
+Crop Name: Early Kharif Arhar
+Sowing Period: Jun(B) Jun(M)
+Harvesting Period: Nov(M) Dec(E)
+
+---
+
+State: Andhra Pradesh
+Crop Name: Kharif Arhar
+Sowing Period: Jun(M) Jul(M)
+Harvesting Period: Dec(M) Jan(M)
+
+---
+
+State: Karnataka
+Crop Name: Early Kharif Arhar
+Sowing Period: Jun(B) Jun(M)
+Harvesting Period: Nov(B) Dec(M)
+
+---
+
+State: Karnataka
+Crop Name: Kharif Arhar
+Sowing Period: Jun(M) Jul(M)
+Harvesting Period: Dec(M) Jan(M)
+
+---
+
+State: Maharashtra
+Crop Name: Early Kharif Arhar
+Sowing Period: Jun(B) Jun(M)
+Harvesting Period: Dec(M) Jan(M)
+
+---
+
+State: Maharashtra
+Crop Name: Kharif Arhar
+Sowing Period: Jun(M) Jul(M)
+Harvesting Period: Dec(M) Feb(M)
+
+---
+
+State: Madhya Pradesh
+Crop Name: Early Kharif Arhar
+Sowing Period: Jun(B) Jun(M)
+Harvesting Period: Jun(B) Jun(M)
+
+---
+
+State: Madhya Pradesh
+Crop Name: Kharif Arhar
+Sowing Period: Jun(M) Jul(M)
+Harvesting Period: Jan(M) Feb(M)
+
+---
+
+State: All India
+Crop Name: Early Kharif Arhar
+Sowing Period: Jun(B) Jun(M)
+Harvesting Period: Nov(M) Jan(M)
+
+---
+
+State: All India
+Crop Name: Kharif Arhar
+Sowing Period: Jun(B) Jul(E)
+Harvesting Period: Dec(M) Apr(E)
+
+---
+
+State: Assam
+Crop Name: Rabi Lentil
+Sowing Period: Oct(M) Nov(M)
+Harvesting Period: Mar(M) Apr(M)
+
+---
+
+State: Bihar
+Crop Name: Kharif Lentil
+Sowing Period: Jun(M) Jul(B)
+Harvesting Period: Nov(B) Dec(E)
+
+---
+
+State: Bihar
+Crop Name: Rabi Lentil
+Sowing Period: Oct(M) Nov(M)
+Harvesting Period: Mar(M) Apr(M)
+
+---
+
+State: Goa
+Crop Name: Kharif Lentil
+Sowing Period: Aug(B) Sep(E)
+Harvesting Period: Dec(B) Jan(E)
+
+---
+
+State: Goa
+Crop Name: Rabi Lentil
+Sowing Period: Nov(B) Dec(E)
+Harvesting Period: Mar(B) May(E)
+
+---
+
+State: Punjab
+Crop Name: Kharif Lentil
+Sowing Period: Jun(B) Jul(E)
+Harvesting Period: Nov(B) Dec(E)
+
+---
+
+State: Punjab
+Crop Name: Rabi Lentil
+Sowing Period: Oct Nov
+Harvesting Period: March April
+
+---
+
+State: West Bengal
+Crop Name: Kharif Lentil
+Sowing Period: Nov(B) Nov(E)
+Harvesting Period: Feb(B) Mar(E)
+
+---
+
+State: West Bengal
+Crop Name: Rabi Lentil
+Sowing Period: Oct(M) Nov(M)
+Harvesting Period: Mar(M) Apr(M)
+
+---
+
+State: Assam
+Crop Name: Rabi Pea
+Sowing Period: Oct(M) Nov(M)
+Harvesting Period: Mar(M) April(M)
+
+---
+
+State: Bihar
+Crop Name: Rabi Pea
+Sowing Period: Oct(M) Nov(M)
+Harvesting Period: Mar(M) April(M)
+
+---
+
+State: Chattisgarh
+Crop Name: Rabi Pea
+Sowing Period: Oct(M) Nov(M)
+Harvesting Period: Mar(M) April(M)
+
+---
+
+State: Jharkhand
+Crop Name: Rabi Pea
+Sowing Period: Oct(M) Nov(M)
+Harvesting Period: Mar(M) Apr(M)
+
+---
+
+State: Rajasthan
+Crop Name: Rabi Pea
+Sowing Period: Oct(E) Nov(M)
+Harvesting Period: Mar(B) Apr(M)
+
+---
+
+State: Tripura
+Crop Name: Rabi Pea
+Sowing Period: Oct(E) Nov(M)
+Harvesting Period: Mar(B) Apr(M)
+
+---
+
+State: Gujarat
+Crop Name: Rabi Pea
+Sowing Period: Oct(M) Nov(M)
+Harvesting Period: Mar(M) Apr(M)
+
+---
+
+State: Haryana
+Crop Name: Rabi Pea
+Sowing Period: Oct(M) Nov(M)
+Harvesting Period: Mar(M) Apr(M)
+
+---
+
+State: Madhya Pradesh
+Crop Name: Rabi Pea
+Sowing Period: Oct(E) Nov(M)
+Harvesting Period: Mar(B) Apr(M)
+
+---
+
+State: Uttar Pradesh
+Crop Name: Rabi Pea
+Sowing Period: Oct(M) Nov(M)
+Harvesting Period: Mar(M) Apr(M)
+
+---
+
+State: Assam
+Crop Name: Rabi Chickpea
+Sowing Period: Oct(M) Nov(M)
+Harvesting Period: March(B) March(E)
+
+---
+
+State: Bihar
+Crop Name: Rabi Chickpea
+Sowing Period: Oct(M) Nov(M)
+Harvesting Period: March(B) March(E)
+
+---
+
+State: Chattisgarh
+Crop Name: Rabi Chickpea
+Sowing Period: Oct(B) Oct(E)
+Harvesting Period: Feb(E) March(E)
+
+---
+
+State: Gujarat
+Crop Name: Rabi Chickpea
+Sowing Period: Oct(B) Nov(M)
+Harvesting Period: Feb(M) March(E)
+
+---
+
+State: Haryana
+Crop Name: Rabi Chickpea
+Sowing Period: Oct(M) Nov(E)
+Harvesting Period: March(M) April(B)
+
+---
+
+State: Karnataka
+Crop Name: Rabi Chickpea
+Sowing Period: Sept(E) Oct(E)
+Harvesting Period: Jan(M) Feb(E)
+
+---
+
+State: Madhya Pradesh
+Crop Name: Rabi Chickpea
+Sowing Period: Oct(B) Nov(B)
+Harvesting Period: Feb(M) March(E)
+
+---
+
+State: Maharashtra
+Crop Name: Rabi Chickpea
+Sowing Period: Sept(E) Oct(E)
+Harvesting Period: Feb(M) March(E)
+
+---
+
+State: Punjab
+Crop Name: Rabi Chickpea
+Sowing Period: Oct(M) Nov(E)
+Harvesting Period: March(M) April(E)
+
+---
+
+State: Uttar Pradesh
+Crop Name: Rabi Chickpea
+Sowing Period: Oct(M) Nov(E)
+Harvesting Period: March(M) April(E)
+
+---
+
+State: West Bengal
+Crop Name: Rabi Chickpea
+Sowing Period: Oct(M) Nov(E)
+Harvesting Period: March(B) March(E)
+
+---
+
+State: Andhra Pradesh
+Crop Name: Kharif Groundnut
+Sowing Period: Jun(B) july(E)
+Harvesting Period: Sep(M) Nov(M)
+
+---
+
+State: Andhra Pradesh
+Crop Name: Rabi Groundnut
+Sowing Period: Nov(M) Jan(E)
+Harvesting Period: Feb(E) May(B)
+
+---
+
+State: Assam
+Crop Name: Rabi Groundnut
+Sowing Period: July(B) Aug(E)
+Harvesting Period: Nov(B) Dec(E)
+
+---
+
+State: Gujarat
+Crop Name: Kharif Groundnut
+Sowing Period: Jun(B) July(E)
+Harvesting Period: Sep(B) Nov(E)
+
+---
+
+State: Gujarat
+Crop Name: Summer Groundnut
+Sowing Period: Jan(B) Feb(E)
+Harvesting Period: Apr(B) May(E)
+
+---
+
+State: Karnataka
+Crop Name: Kharif Groundnut
+Sowing Period: Jun(B) jul(E)
+Harvesting Period: Sep(B) Oct(E)
+
+---
+
+State: Karnataka
+Crop Name: Rabi Groundnut
+Sowing Period: Nov(M) Jan(E)
+Harvesting Period: Feb(E) May(B)
+
+---
+
+State: Karnataka
+Crop Name: Summer Groundnut
+Sowing Period: Dec(B) Jan(E)
+Harvesting Period: Mar(B) Apr(E)
+
+---
+
+State: Madhya Pradesh
+Crop Name: Kharif Groundnut
+Sowing Period: Jun(M) july(E)
+Harvesting Period: Sep(M) Oct(E)
+
+---
+
+State: Maharashtra
+Crop Name: Kharif Groundnut
+Sowing Period: Jun(E) Jul(E)
+Harvesting Period: Oct(B) Nov(B)
+
+---
+
+State: Maharashtra
+Crop Name: Summer Groundnut
+Sowing Period: Jan(B) Feb(E)
+Harvesting Period: Apr(B) May(E)
+
+---
+
+State: Rajasthan
+Crop Name: Kharif Groundnut
+Sowing Period: Jun(B) jul(E)
+Harvesting Period: Oct(B) Nov(E)
+
+---
+
+State: Uttar Pradesh
+Crop Name: Kharif Groundnut
+Sowing Period: Jul(B) jul(E)
+Harvesting Period: Oct(B) Nov(B)
+
+---
+
+State: West Bengal
+Crop Name: Kharif Groundnut
+Sowing Period: Jun(E) jul(B)
+Harvesting Period: Sep(E) Oct(B)
+
+---
+
+State: West Bengal
+Crop Name: Rabi Groundnut
+Sowing Period: Oct(E) Nov(B)
+Harvesting Period: Jan(E) March(B)
+
+---
+
+State: West Bengal
+Crop Name: Summer Groundnut
+Sowing Period: Feb(B) Mar(E)
+Harvesting Period: May(B) Jun(E)
+
+---
+
+State: Andhra Pradesh
+Crop Name: Mustard/Banarasi rai
+Sowing Period: Nov(L) Dec(E)
+Harvesting Period: Feb March
+
+---
+
+State: Assam
+Crop Name: Toria
+Sowing Period: Nov(L) Dec(E)
+Harvesting Period: Feb March
+
+---
+
+State: Bihar
+Crop Name: Mustard
+Sowing Period: Oct(L) Nov(L)
+Harvesting Period: Feb March
+
+---
+
+State: Bihar
+Crop Name: Toria
+Sowing Period: Sep(L) Oct(E)
+Harvesting Period: Jan Feb
+
+---
+
+State: Bihar
+Crop Name: Yellow Sarson
+Sowing Period: Oct(E)
+Harvesting Period: Feb March
+
+---
+
+State: Gujarat
+Crop Name: Mustard
+Sowing Period: Oct(L)
+Harvesting Period: Feb March
+
+---
+
+State: Gujarat
+Crop Name: Yellow Sarson
+Sowing Period: Oct(L)
+Harvesting Period: Feb
+
+---
+
+State: Haryana
+Crop Name: Mustard
+Sowing Period: Within Oct
+Harvesting Period: Feb March
+
+---
+
+State: Haryana
+Crop Name: Toria
+Sowing Period: Sep(L)
+Harvesting Period: Dec Jan
+
+---
+
+State: Punjab
+Crop Name: Mustard
+Sowing Period: Oct(L) Nov(L)
+Harvesting Period: March April
+
+---
+
+State: Punjab
+Crop Name: Toria
+Sowing Period: Sep(L)
+Harvesting Period: Dec Jan
+
+---
+
+State: Rajasthan
+Crop Name: Mustard
+Sowing Period: Sep(L) Oct(L)
+Harvesting Period: Feb March
+
+---
+
+State: Uttar Pradesh
+Crop Name: Mustard
+Sowing Period: Within Oct
+Harvesting Period: Feb March
+
+---
+
+State: Uttar Pradesh
+Crop Name: Toria
+Sowing Period: Sep(L)
+Harvesting Period: Dec Jan
+
+---
+
+State: Uttar Pradesh
+Crop Name: Yellow Sarson
+Sowing Period: Within Oct
+Harvesting Period: Feb March
+
+---
+
+State: West Bengal
+Crop Name: Mustard
+Sowing Period: Within Oct
+Harvesting Period: Feb March
+
+---
+
+State: West Bengal
+Crop Name: Toria
+Sowing Period: Oct(L) Nov(E)
+Harvesting Period: Feb
+
+---
+
+State: West Bengal
+Crop Name: Yellow Sarson
+Sowing Period: Oct(L) Nov(E)
+Harvesting Period: Feb March
+
+---
+
+State: Assam
+Crop Name: Rabi Linseed
+Sowing Period: Oct(B) Nov(B)
+Harvesting Period: Mar(B) Apr(E)
+
+---
+
+State: Andhra Pradesh
+Crop Name: Rabi Linseed
+Sowing Period: Oct(B) Oct(E)
+Harvesting Period: Feb(E) Mar(E)
+
+---
+
+State: Bihar
+Crop Name: Rabi Linseed
+Sowing Period: Oct(B) Nov(B)
+Harvesting Period: Mar(B) Apr(E)
+
+---
+
+State: M.P.
+Crop Name: Rabi Linseed
+Sowing Period: Oct(B) Nov(M)
+Harvesting Period: Mar(B) Mar(E)
+
+---
+
+State: Chhattisgarh
+Crop Name: Rabi Linseed
+Sowing Period: Oct(B) Nov(M)
+Harvesting Period: Mar(B) Mar(E)
+
+---
+
+State: Maharashtra
+Crop Name: Rabi Linseed
+Sowing Period: Oct(B) Oct(E)
+Harvesting Period: Mar(B) Mar(E)
+
+---
+
+State: Uttar Pradesh
+Crop Name: Rabi Linseed
+Sowing Period: Oct(B) Nov(B)
+Harvesting Period: Mar(B) Apr(E)
+
+---
+
+State: Orissa
+Crop Name: Rabi Linseed
+Sowing Period: Oct(B) Oct(E)
+Harvesting Period: Mar(B) Mar(E)
+
+---
+
+State: Jharkhand
+Crop Name: Rabi Linseed
+Sowing Period: Oct(B) Nov(B)
+Harvesting Period: Mar(B) Apr(E)
+
+---
+
+State: Karnataka
+Crop Name: Rabi Linseed
+Sowing Period: Oct(B) Oct(E)
+Harvesting Period: Feb(B) Mar(M)
+
+---
+
+State: Nagaland
+Crop Name: Rabi Linseed
+Sowing Period: Oct(B) Nov(B)
+Harvesting Period: Mar(B) Apr(E)
+
+---
+
+State: West Bengal
+Crop Name: Rabi Linseed
+Sowing Period: Oct(B) Nov(B)
+Harvesting Period: Mar(B) Apr(M)
+
+---
+
+State: Rajasthan
+Crop Name: Rabi Linseed
+Sowing Period: Oct(B) Oct(E)
+Harvesting Period: Feb(B) Mar(E)
+
+---
+
+State: Himachal Pradesh
+Crop Name: Rabi Linseed
+Sowing Period: Oct(B) Nov(B)
+Harvesting Period: Apr(E) May(M)
+
+---
+
+State: J & K
+Crop Name: Rabi Linseed
+Sowing Period: Oct(B) Nov(B)
+Harvesting Period: Apr(E) May(M)
+
+---
+
+State: Punjab
+Crop Name: Rabi Linseed
+Sowing Period: Oct(M) Nov(M)
+Harvesting Period: Mar(E) Apr(E)
+
+---
+
+State: Andhra Pradesh
+Crop Name: Sugarcane (Kharif)
+Sowing Period: Dec(E) Jun(M)
+Harvesting Period: Dec(E) May(M)
+
+---
+
+State: Assam
+Crop Name: Sugarcane (Kharif)
+Sowing Period: Mar(B) Apr(E)
+Harvesting Period: Dec(B) Jan(E)
+
+---
+
+State: Haryana
+Crop Name: Sugarcane (Kharif)
+Sowing Period: Feb(M) Mar(M)
+Harvesting Period: Dec(M) March(E)
+
+---
+
+State: Karnataka
+Crop Name: Sugarcane (Kharif)
+Sowing Period: Dec(B) Mar(E)
+Harvesting Period: Aug(B) May(E)
+
+---
+
+State: Kerala
+Crop Name: Sugarcane (Kharif Jute)
+Sowing Period: Jun(B) Oct(E)
+Harvesting Period: Oct(B) Jan(E)
+
+---
+
+State: Madhya Pradesh
+Crop Name: Sugarcane (Kharif)
+Sowing Period: Oct(B) Apr(E)
+Harvesting Period: Oct(E) Mar(E)
+
+---
+
+State: Maharashtra
+Crop Name: Sugarcane (Kharif)
+Sowing Period: Jul(B) Aug(E)
+Harvesting Period: Oct(B) Nov(E)
+
+---
+
+State: Punjab
+Crop Name: Sugarcane (Kharif)
+Sowing Period: Feb(B) Mar(E)
+Harvesting Period: Nov(B) Feb(E)
+
+---
+
+State: Rajasthan
+Crop Name: Sugarcane (Kharif)
+Sowing Period: Mar(B) Apr(E)
+Harvesting Period: Dec(B) Mar(E)
+
+---
+
+State: Tamil Nadu
+Crop Name: Sugarcane (Kharif)
+Sowing Period: Dec(B) Jan(E)
+Harvesting Period: Dec(B) Jan(E)
+
+---
+
+State: Uttar Pradesh
+Crop Name: Sugarcane (Kharif)
+Sowing Period: Feb(B) Aug(E)/Rabi: Jun(B) Oct(E)
+Harvesting Period: Aug(B) nov(E)/Oct(B) Jan(E)
+
+---
+
+State: West Bengal
+Crop Name: Sugarcane (Kharif Jute)
+Sowing Period: Mar(B) May(E)
+Harvesting Period: Jul(B) Aug(E)
+
+---
+
+State: All India
+Crop Name: Sugarcane (Kharif/Rabi)
+Sowing Period: Feb(B) Aug(E)/Jun(B) Oct(E)
+Harvesting Period: Aug(B) nov(E)/Oct(B) Jan(E)
+
+---
+
+State: Madhya Pradesh
+Crop Name: Soybean (Kharif)
+Sowing Period: June(M) July(M)
+Harvesting Period: Sept(E) October(B)
+
+---
+
+State: Maharashtra
+Crop Name: Soybean (Kharif)
+Sowing Period: June(M) July(M)
+Harvesting Period: Sept(E) Oct(B)
+
+---
+
+State: Rajasthan
+Crop Name: Soybean (Kharif)
+Sowing Period: June(E) July(M)
+Harvesting Period: Sept(E) October(B)
+
+---
+
+State: Karnataka
+Crop Name: Soybean (Kharif)
+Sowing Period: June(M) July(B)
+Harvesting Period: Sept(E) Oct(B)
+
+---
+
+State: Andhra Pradesh
+Crop Name: Soybean (Kharif)
+Sowing Period: June(M) July(M)
+Harvesting Period: Sept(E) Oct(B)
+
+---
+
+State: Chhattisgarh
+Crop Name: Soybean (Kharif)
+Sowing Period: June(M) July(M)
+Harvesting Period: Sept(E) October(B)
+
+---
+
+State: Uttar Pradesh
+Crop Name: Soybean (Kharif)
+Sowing Period: June(E) July(M)
+Harvesting Period: Sept(E) October(B)
+
+---
+
+State: Madhya Pradesh
+Crop Name: Niger (Kharif)
+Sowing Period: June(B) July(E)
+Harvesting Period: Oct(B) Nov(M)
+
+---
+
+State: Madhya Pradesh
+Crop Name: Niger (Late Kharif)
+Sowing Period: Aug(B) Sept(B)
+Harvesting Period: Nov(B) Dec(B)
+
+---
+
+State: Maharashtra
+Crop Name: Niger (Kharif)
+Sowing Period: June(B) July(E)
+Harvesting Period: Oct(B) Nov(M)
+
+---
+
+State: Maharashtra
+Crop Name: Niger (Late Kharif)
+Sowing Period: Aug(B) Sept(B)
+Harvesting Period: Nov(B) Dec(B)
+
+---
+
+State: Karnataka
+Crop Name: Niger (Kharif)
+Sowing Period: June(B) July(E)
+Harvesting Period: Oct(B) Nov(M)
+
+---
+
+State: Karnataka
+Crop Name: Niger (Late Kharif)
+Sowing Period: Aug(B) Sept(B)
+Harvesting Period: Nov(B) Dec(B)
+
+---
+
+State: Andhra Pradesh
+Crop Name: Niger (Kharif)
+Sowing Period: June(B) July(E)
+Harvesting Period: Oct(B) Nov(M)
+
+---
+
+State: Andhra Pradesh
+Crop Name: Niger (Late Kharif)
+Sowing Period: Aug(B) Sept(B)
+Harvesting Period: Nov(B) Dec(B)
+
+---
+
+State: Orissa
+Crop Name: Niger (Kharif)
+Sowing Period: June(B) July(E)
+Harvesting Period: Oct(B) Nov(M)
+
+---
+
+State: Orissa
+Crop Name: Niger (Late Kharif)
+Sowing Period: Aug(B) Sept(B)
+Harvesting Period: Nov(B) Dec(B)
+
+---
+
+State: Bihar/Jharkhand
+Crop Name: Niger (Kharif)
+Sowing Period: June(B) July(E)
+Harvesting Period: Oct(B) Nov(M)
+
+---
+
+State: Bihar/Jharkhand
+Crop Name: Niger (Late Kharif)
+Sowing Period: Aug(B) Sept(B)
+Harvesting Period: Nov(B) Dec(B)
+
+---
+
+State: Gujarat
+Crop Name: Niger (Kharif)
+Sowing Period: June(B) July(E)
+Harvesting Period: Oct(B) Nov(M)
+
+---
+
+State: Gujarat
+Crop Name: Niger (Late Kharif)
+Sowing Period: Aug(B) Sept(B)
+Harvesting Period: Nov(B) Dec(B)
+
+---
+
+State: Gujarat
+Crop Name: Gram (Rabi)
+Sowing Period: Oct(B) Nov(E)
+Harvesting Period: Feb(B) Mar(E)
+
+---
+
+State: Haryana
+Crop Name: Gram (Rabi)
+Sowing Period: Oct(B) Oct(M)
+Harvesting Period: Mar(M) Mar(E)
+
+---
+
+State: Karnataka
+Crop Name: Gram (Rabi)
+Sowing Period: Oct(B) Nov(E)
+Harvesting Period: Jan(B) Mar(E)
+
+---
+
+State: Madhya Pradesh
+Crop Name: Gram (Rabi)
+Sowing Period: Oct(B) Dec(B)
+Harvesting Period: Feb(B) Apr(B)
+
+---
+
+State: Maharashtra
+Crop Name: Gram (Rabi)
+Sowing Period: Sep(B) Oct(E)
+Harvesting Period: Feb(B) Mar(E)
+
+---
+
+State: Uttar Pradesh
+Crop Name: Gram (Rabi)
+Sowing Period: Oct(B) Nov(E)
+Harvesting Period: Mar(B) Apr(E)
+
+---
+
+State: Madhya Pradesh
+Crop Name: Masur (Rabi)
+Sowing Period: Sep(M) Nov(E)
+Harvesting Period: Feb(M) Apr(B)
+
+---
+
+State: Uttar Pradesh
+Crop Name: Masur (Rabi)
+Sowing Period: Oct(B) Nov(E)
+Harvesting Period: Mar(B) Mar(E)

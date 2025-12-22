@@ -1,0 +1,27 @@
+crop,disease_or_pest,agent,recommended_treatment,dosage,duration,precautions
+Barley,Leaf Blight,Fungal (Bipolaris sorokiniana),Propiconazole 25% EC @ 1 ml/L water,1 ml/L,7 days,Avoid excessive irrigation; remove infected debris.
+Barley,Loose Smut,Fungal (Ustilago nuda),Carbendazim seed treatment @ 2g/kg seed,2g/kg,Before sowing,Use disease-free certified seeds.
+Sorghum (Jowar),Shoot Fly,Insect (Atherigona soccata),Chlorpyrifos 20% EC @ 2.5 ml/L water,2.5 ml/L,10 days,Plant early; avoid late sowing.
+Sorghum (Jowar),Grain Mold,Fungal (Fusarium spp.),Mancozeb 75% WP @ 2g/L,2g/L,10 days,Harvest timely; ensure proper drying.
+Pearl Millet (Bajra),Downy Mildew,Fungal (Sclerospora graminicola),Metalaxyl + Mancozeb @ 2g/L water,2g/L,10 days,Grow resistant hybrids.
+Finger Millet (Ragi),Blast,Fungal (Pyricularia grisea),Tricyclazole 75% WP @ 0.6g/L,0.6g/L,7 days,Avoid excess nitrogen fertilizer.
+Oats,Rust,Fungal (Puccinia coronata),Propiconazole 25% EC @ 1 ml/L water,1 ml/L,10 days,Use resistant varieties.
+Green Gram (Moong),Yellow Mosaic Virus,Viral (Begomovirus),Imidacloprid 17.8% SL @ 0.3 ml/L,0.3 ml/L,7 days,Control whitefly population.
+Black Gram (Urad),Cercospora Leaf Spot,Fungal (Cercospora spp.),Chlorothalonil 75% WP @ 2g/L,2g/L,10 days,Use clean seeds.
+Lentil (Masoor),Rust,Fungal (Uromyces viciae-fabae),Hexaconazole 5% EC @ 1 ml/L,1 ml/L,10 days,Follow crop rotation.
+Peas (Matar),Powdery Mildew,Fungal (Erysiphe pisi),Wettable sulfur 80% WP @ 3g/L,3g/L,7 days,Avoid high humidity.
+Mustard,Aphid,Insect (Lipaphis erysimi),Thiamethoxam 25% WG @ 0.25g/L,0.25g/L,10 days,Avoid excess nitrogen; use yellow traps.
+Sunflower,Alternaria Blight,Fungal (Alternaria helianthi),Mancozeb 75% WP @ 2g/L,2g/L,10 days,Ensure good field sanitation.
+Sesame (Til),Leaf Curl,Viral (Begomovirus),Neem oil 3% spray,3%,10 days,Control whiteflies organically.
+Castor,Wilt,Fungal (Fusarium oxysporum),Trichoderma viride seed treatment @ 4g/kg,4g/kg,Before sowing,Improve soil drainage.
+Jute,Stem Rot,Fungal (Macrophomina phaseolina),Carbendazim 50% WP @ 2g/L,2g/L,10 days,Rotate with non-host crops.
+Cauliflower,Downy Mildew,Fungal (Peronospora parasitica),Metalaxyl 8% + Mancozeb 64% WP @ 2g/L,2g/L,10 days,Avoid overhead irrigation.
+Okra (Bhindi),Fruit Borer,Insect (Earias vittella),Spinosad 45% SC @ 0.3 ml/L,0.3 ml/L,7 days,Install pheromone traps.
+Papaya,Papaya Ring Spot Virus,Viral (PRSV),Neem oil 2% spray,2%,7 days,Remove infected plants immediately.
+Apple,Scab,Fungal (Venturia inaequalis),Captan 50% WP @ 2g/L,2g/L,10 days,Prune trees for aeration.
+Citrus,Canker,Bacterial (Xanthomonas axonopodis),Copper oxychloride 50% WP @ 3g/L,3g/L,15 days,Avoid injury during pruning.
+Grapes,Powdery Mildew,Fungal (Uncinula necator),Sulfur 80% WP @ 3g/L,3g/L,7 days,Maintain open canopy.
+Tea,Blister Blight,Fungal (Exobasidium vexans),Copper oxychloride 50% WP @ 3g/L,3g/L,10 days,Regular plucking and pruning.
+Coffee,Rust,Fungal (Hemileia vastatrix),Hexaconazole 5% EC @ 1 ml/L,1 ml/L,10 days,Shade management important.
+Turmeric,Leaf Spot,Fungal (Taphrina maculans),Mancozeb 75% WP @ 2g/L,2g/L,10 days,Avoid waterlogging.
+Cardamom,Capsule Rot,Fungal (Phytophthora meadii),Metalaxyl 8% + Mancozeb 64% WP @ 2g/L,2g/L,10 days,Ensure good drainage.

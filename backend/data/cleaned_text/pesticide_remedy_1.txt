@@ -1,0 +1,257 @@
+Crop: Barley
+Disease Or Pest: Leaf Blight
+Agent: Fungal (Bipolaris sorokiniana)
+Recommended Treatment: Propiconazole 25% EC @ 1 ml/L water
+Dosage: 1 ml/L
+Duration: 7 days
+Precautions: Avoid excessive irrigation; remove infected debris.
+
+---
+
+Crop: Barley
+Disease Or Pest: Loose Smut
+Agent: Fungal (Ustilago nuda)
+Recommended Treatment: Carbendazim seed treatment @ 2g/kg seed
+Dosage: 2g/kg
+Duration: Before sowing
+Precautions: Use disease free certified seeds.
+
+---
+
+Crop: Sorghum (Jowar)
+Disease Or Pest: Shoot Fly
+Agent: Insect (Atherigona soccata)
+Recommended Treatment: Chlorpyrifos 20% EC @ 2.5 ml/L water
+Dosage: 2.5 ml/L
+Duration: 10 days
+Precautions: Plant early; avoid late sowing.
+
+---
+
+Crop: Sorghum (Jowar)
+Disease Or Pest: Grain Mold
+Agent: Fungal (Fusarium spp.)
+Recommended Treatment: Mancozeb 75% WP @ 2g/L
+Dosage: 2g/L
+Duration: 10 days
+Precautions: Harvest timely; ensure proper drying.
+
+---
+
+Crop: Pearl Millet (Bajra)
+Disease Or Pest: Downy Mildew
+Agent: Fungal (Sclerospora graminicola)
+Recommended Treatment: Metalaxyl + Mancozeb @ 2g/L water
+Dosage: 2g/L
+Duration: 10 days
+Precautions: Grow resistant hybrids.
+
+---
+
+Crop: Finger Millet (Ragi)
+Disease Or Pest: Blast
+Agent: Fungal (Pyricularia grisea)
+Recommended Treatment: Tricyclazole 75% WP @ 0.6g/L
+Dosage: 0.6g/L
+Duration: 7 days
+Precautions: Avoid excess nitrogen fertilizer.
+
+---
+
+Crop: Oats
+Disease Or Pest: Rust
+Agent: Fungal (Puccinia coronata)
+Recommended Treatment: Propiconazole 25% EC @ 1 ml/L water
+Dosage: 1 ml/L
+Duration: 10 days
+Precautions: Use resistant varieties.
+
+---
+
+Crop: Green Gram (Moong)
+Disease Or Pest: Yellow Mosaic Virus
+Agent: Viral (Begomovirus)
+Recommended Treatment: Imidacloprid 17.8% SL @ 0.3 ml/L
+Dosage: 0.3 ml/L
+Duration: 7 days
+Precautions: Control whitefly population.
+
+---
+
+Crop: Black Gram (Urad)
+Disease Or Pest: Cercospora Leaf Spot
+Agent: Fungal (Cercospora spp.)
+Recommended Treatment: Chlorothalonil 75% WP @ 2g/L
+Dosage: 2g/L
+Duration: 10 days
+Precautions: Use clean seeds.
+
+---
+
+Crop: Lentil (Masoor)
+Disease Or Pest: Rust
+Agent: Fungal (Uromyces viciae fabae)
+Recommended Treatment: Hexaconazole 5% EC @ 1 ml/L
+Dosage: 1 ml/L
+Duration: 10 days
+Precautions: Follow crop rotation.
+
+---
+
+Crop: Peas (Matar)
+Disease Or Pest: Powdery Mildew
+Agent: Fungal (Erysiphe pisi)
+Recommended Treatment: Wettable sulfur 80% WP @ 3g/L
+Dosage: 3g/L
+Duration: 7 days
+Precautions: Avoid high humidity.
+
+---
+
+Crop: Mustard
+Disease Or Pest: Aphid
+Agent: Insect (Lipaphis erysimi)
+Recommended Treatment: Thiamethoxam 25% WG @ 0.25g/L
+Dosage: 0.25g/L
+Duration: 10 days
+Precautions: Avoid excess nitrogen; use yellow traps.
+
+---
+
+Crop: Sunflower
+Disease Or Pest: Alternaria Blight
+Agent: Fungal (Alternaria helianthi)
+Recommended Treatment: Mancozeb 75% WP @ 2g/L
+Dosage: 2g/L
+Duration: 10 days
+Precautions: Ensure good field sanitation.
+
+---
+
+Crop: Sesame (Til)
+Disease Or Pest: Leaf Curl
+Agent: Viral (Begomovirus)
+Recommended Treatment: Neem oil 3% spray
+Dosage: 3%
+Duration: 10 days
+Precautions: Control whiteflies organically.
+
+---
+
+Crop: Castor
+Disease Or Pest: Wilt
+Agent: Fungal (Fusarium oxysporum)
+Recommended Treatment: Trichoderma viride seed treatment @ 4g/kg
+Dosage: 4g/kg
+Duration: Before sowing
+Precautions: Improve soil drainage.
+
+---
+
+Crop: Jute
+Disease Or Pest: Stem Rot
+Agent: Fungal (Macrophomina phaseolina)
+Recommended Treatment: Carbendazim 50% WP @ 2g/L
+Dosage: 2g/L
+Duration: 10 days
+Precautions: Rotate with non host crops.
+
+---
+
+Crop: Cauliflower
+Disease Or Pest: Downy Mildew
+Agent: Fungal (Peronospora parasitica)
+Recommended Treatment: Metalaxyl 8% + Mancozeb 64% WP @ 2g/L
+Dosage: 2g/L
+Duration: 10 days
+Precautions: Avoid overhead irrigation.
+
+---
+
+Crop: Okra (Bhindi)
+Disease Or Pest: Fruit Borer
+Agent: Insect (Earias vittella)
+Recommended Treatment: Spinosad 45% SC @ 0.3 ml/L
+Dosage: 0.3 ml/L
+Duration: 7 days
+Precautions: Install pheromone traps.
+
+---
+
+Crop: Papaya
+Disease Or Pest: Papaya Ring Spot Virus
+Agent: Viral (PRSV)
+Recommended Treatment: Neem oil 2% spray
+Dosage: 2%
+Duration: 7 days
+Precautions: Remove infected plants immediately.
+
+---
+
+Crop: Apple
+Disease Or Pest: Scab
+Agent: Fungal (Venturia inaequalis)
+Recommended Treatment: Captan 50% WP @ 2g/L
+Dosage: 2g/L
+Duration: 10 days
+Precautions: Prune trees for aeration.
+
+---
+
+Crop: Citrus
+Disease Or Pest: Canker
+Agent: Bacterial (Xanthomonas axonopodis)
+Recommended Treatment: Copper oxychloride 50% WP @ 3g/L
+Dosage: 3g/L
+Duration: 15 days
+Precautions: Avoid injury during pruning.
+
+---
+
+Crop: Grapes
+Disease Or Pest: Powdery Mildew
+Agent: Fungal (Uncinula necator)
+Recommended Treatment: Sulfur 80% WP @ 3g/L
+Dosage: 3g/L
+Duration: 7 days
+Precautions: Maintain open canopy.
+
+---
+
+Crop: Tea
+Disease Or Pest: Blister Blight
+Agent: Fungal (Exobasidium vexans)
+Recommended Treatment: Copper oxychloride 50% WP @ 3g/L
+Dosage: 3g/L
+Duration: 10 days
+Precautions: Regular plucking and pruning.
+
+---
+
+Crop: Coffee
+Disease Or Pest: Rust
+Agent: Fungal (Hemileia vastatrix)
+Recommended Treatment: Hexaconazole 5% EC @ 1 ml/L
+Dosage: 1 ml/L
+Duration: 10 days
+Precautions: Shade management important.
+
+---
+
+Crop: Turmeric
+Disease Or Pest: Leaf Spot
+Agent: Fungal (Taphrina maculans)
+Recommended Treatment: Mancozeb 75% WP @ 2g/L
+Dosage: 2g/L
+Duration: 10 days
+Precautions: Avoid waterlogging.
+
+---
+
+Crop: Cardamom
+Disease Or Pest: Capsule Rot
+Agent: Fungal (Phytophthora meadii)
+Recommended Treatment: Metalaxyl 8% + Mancozeb 64% WP @ 2g/L
+Dosage: 2g/L
+Duration: 10 days
+Precautions: Ensure good drainage.

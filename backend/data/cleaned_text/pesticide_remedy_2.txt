@@ -1,0 +1,75 @@
+Crop: Tomato
+Disease Or Pest: Early Blight
+Agent: Alternaria solani
+Pathogen Type: Fungus
+Recommended Treatment: Spray Difolatan 0.2% or Dithane M 45 0.2% or Bavistin 0.1%
+Treatment Type: Chemical
+Active Ingredient: Difolatan, Dithane M 45, Bavistin
+Dosage: 0.2% or 0.1%
+Application Interval Days: 10
+Stage Applicable: Vegetative/Fruiting
+Organic Option: Use crop rotation and remove affected leaves
+Precautions: Avoid overuse of chemical fungicides
+
+---
+
+Crop: Rice
+Disease Or Pest: Leaf Blast
+Agent: Pyricularia oryzae
+Pathogen Type: Fungus
+Recommended Treatment: Apply Tricyclazole 75 WP at 300 g/ha and remove volunteer plants
+Treatment Type: Chemical
+Active Ingredient: Tricyclazole
+Dosage: 300 g/ha
+Application Interval Days: 14
+Stage Applicable: Panicle initiation
+Organic Option: Use resistant varieties, maintain proper water depth
+Precautions: Avoid excessive nitrogen use
+
+
+---
+
+Crop: Maize
+Disease Or Pest: Stem Borer
+Agent: Busseola fusca
+Pathogen Type: Insect
+Recommended Treatment: Install pheromone traps, spray Spinosad 45 SC 0.3 L/ha when >10% damage
+Treatment Type: Chemical/Insecticidal
+Active Ingredient: Spinosad
+Dosage: 0.3 L/ha
+Application Interval Days: 10
+Stage Applicable: Early vegetative
+Organic Option: Use natural enemies, avoid broad spectrum insecticides
+Precautions: Avoid spraying during flowering
+
+
+---
+
+Crop: Cotton
+Disease Or Pest: Bollworm
+Agent: Helicoverpa armigera
+Pathogen Type: Insect
+Recommended Treatment: Spray Emamectin Benzoate 5 SG at 220 g/ha or Bt formulation
+Treatment Type: Chemical/Biological
+Active Ingredient: Emamectin Benzoate, Bacillus thuringiensis
+Dosage: 220 g/ha
+Application Interval Days: 15
+Stage Applicable: Flowering/Boll formation
+Organic Option: Use pheromone traps and neem based sprays
+Precautions: Rotate insecticides to prevent resistance
+
+
+---
+
+Crop: Potato
+Disease Or Pest: Late Blight
+Agent: Phytophthora infestans
+Pathogen Type: Fungus
+Recommended Treatment: Spray Mancozeb 0.25% or Metalaxyl 8% + Mancozeb 64% WP
+Treatment Type: Chemical
+Active Ingredient: Mancozeb, Metalaxyl
+Dosage: 0.25% or 2.5 g/L
+Application Interval Days: 10
+Stage Applicable: Tuber formation
+Organic Option: Remove infected leaves, ensure proper spacing
+Precautions: Do not spray near harvest

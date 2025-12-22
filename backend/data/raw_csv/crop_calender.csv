@@ -1,0 +1,217 @@
+State,Crop Name,Sowing Period,Harvesting Period
+Andhra Pradesh,Kharif Paddy,May-June,Nov-Dec
+Andhra Pradesh,Rabi Paddy,Nov-Dec,May-June
+Andhra Pradesh,Summer Paddy,March-April,July-Aug
+Assam,Kharif Paddy,Feb-March,June-July
+Assam,Rabi Paddy,June-July,Nov-Dec
+Bihar,Kharif Paddy,Jun-Sept,April-May
+Bihar,Rabi Paddy,Oct-Nov,April-May
+Bihar,Summer Paddy,Feb-March,July-Aug
+Gujarat,Kharif Paddy,June-July,Oct-Nov
+Haryana,Kharif Paddy,June-July,Sept-Oct
+Karnataka,Kharif Paddy,May-June,Sept-Oct
+Karnataka,Rabi Paddy,Sept-Oct,Jan-Feb
+Karnataka,Summer Paddy,Jan-Feb,May-June
+Kerala,Kharif Paddy,April-May,Sept-Oct
+Kerala,Rabi Paddy,Sept-Oct,Dec-Jan
+Kerala,Summer Paddy,Dec-Jan,March-April
+Madhya Pradesh,Kharif Paddy,June-July,Oct-Nov
+Maharashtra,Kharif Paddy,June-July,Oct-Nov
+Orissa,Kharif Paddy,May-June,Sept-Oct
+Orissa,Rabi Paddy,June-July,Nov-Dec
+Punjab,Kharif Paddy,May-Oct,April-May
+Rajasthan,Kharif Paddy,June-July,Oct-Nov
+Uttar Pradesh,Kharif Paddy,June-July,Oct-Nov
+Uttar Pradesh,Rabi Paddy,Nov-Dec,April-May
+West Bengal,Kharif Paddy,June-July,Oct-Nov
+All India,Kharif Paddy,May-Aug,Sep-Jan
+All India,Rabi Paddy,Dec-Jan,April-May
+Assam,Rabi Wheat,Nov(B)-Dec(M),Mar(B)-Apr(E)
+Bihar,Rabi Wheat,Nov(M)-Dec(E),Mar(M)-Apr(E)
+Gujarat,Rabi Wheat,Oct(B)-Nov(E),Feb(B)-Mar(E)
+Haryana,Rabi Wheat,Oct(E)-Dec(B),Apr(M)-Apr(E)
+Himachal Pradesh,Rabi Wheat,Oct(B)-Nov(E),Apr(M)-Jun(E)
+Jammu & Kashmir,Rabi Wheat,Oct(B)-Dec(E),May(B)-May(E)
+Karnataka,Rabi Wheat,Oct(B)-Dec(E),Jan(B)-Feb(E)
+Madhya Pradesh,Rabi Wheat,Oct(M)-Dec(E),Feb(M)-Apr(E)
+Maharashtra,Rabi Wheat,Oct(B)-Dec(E),Feb(B)-Mar(E)
+Orissa,Rabi Wheat,Oct-Nov,Mar-Apr
+Punjab,Rabi Wheat,Oct(B)-Nov(E),Apr(B)-May(E)
+Rajasthan,Rabi Wheat,Nov(B)-Dec(E),Mar(B)-May(E)
+Uttar Pradesh,Rabi Wheat,Oct(B)-Jan(M),Apr(B)-Apr(M)
+West Bengal,Rabi Wheat,Nov(B)-Dec(E),Mar(B)-Apr(E)
+All India,Rabi Wheat,Oct-Dec,Feb-Jun
+Andhra Pradesh,Kharif Bajra,Jun(B)-Jul(M),Aug(B)-Oct(B)
+Gujarat,Kharif Bajra,Jun(B)-Jul(E),Sep(B)-Nov(E)
+Gujarat,Summer Bajra,Feb(B)-Feb(E),May(B)-May(E)
+Haryana,Kharif Bajra,Jun(M)-Jul(B),Oct(M)-Nov(M)
+Karnataka,Kharif Bajra,Jul(B)-Sep(E),Oct(B)-Nov(E)
+Karnataka,Summer Bajra,Jan(B)-Feb(E),Apr(B)-May(E)
+Madhya Pradesh,Kharif Bajra,Jun(M)-Jul(E),Sep(E)-Dec(M)
+Maharashtra,Kharif Bajra,Jun(B)-Jul(E),Sep(B)-Oct(E)
+Rajasthan,Kharif Bajra,Jun(B)-Jul(E),Sep(B)-Oct(E)
+Uttar Pradesh,Kharif Bajra,Jun(B)-Jul(E),Oct(B)-Nov(M)
+All India,Kharif Bajra,Jun-Jul,Sep-Nov
+All India,Summer Bajra,Jan-Feb,Apr-May
+Andhra Pradesh,Kharif Maize,Jun(M)-Jul(M),Sep(M)-Oct(E)
+Andhra Pradesh,Rabi Maize,Oct(E)-Jan(M),Feb(E)-May(B)
+Bihar,Kharif Maize,Jun(M)-Jul(B),Nov(B)-Dec(E)
+Bihar,Rabi Maize,Oct(M)-Nov(M),Feb(B)-Mar(B)
+Gujarat,Kharif Maize,Jun(B)-Jul(E),Sep(B)-Nov(E)
+Haryana,Kharif Maize,Jul(M)-Aug(B),Oct(M)-Oct(E)
+Himachal Pradesh,Kharif Maize,May(M)-Jun(E),Sep(M)-Oct(M)
+Karnataka,Kharif Maize,May(B)-Jun(E),Sep(B)-Oct(E)
+Karnataka,Rabi Maize,Sep(B)-Oct(E),Jan(B)-Mar(E)
+Madhya Pradesh,Kharif Maize,Jun(M)-Jul(E),Aug(M)-Dec(E)
+Maharashtra,Kharif Maize,Jul(B)-Aug(E),Oct(B)-Nov(E)
+Orissa,Kharif Maize,Jun-Jul,Sep-Oct
+Punjab,Kharif Maize,May(B)-Jun(E),Sep(B)-Oct(E)
+Rajasthan,Kharif Maize,Jun(B)-Jul(E),Oct(B)-Nov(E)
+Uttar Pradesh,Kharif Maize,Jun(B)-Jul(E),Sep(B)-Sep(E)
+West Bengal,Kharif Maize,Mar(B)-May(E),Jun(B)-Aug(E)
+West Bengal,Rabi Maize,Nov(B)-Nov(E),Mar(B)-Mar(E)
+All India,Kharif Maize,Mar-Jul,Sep-Dec
+All India,Rabi Maize,Sep-Jan,Jan-May
+Andhra Pradesh,Kharif Cotton,Jun(E)-Jul(E),Dec(E)-Mar(M)
+Gujarat,Kharif Cotton,May(B)-May(E),Oct(B)-Apr(E)
+Haryana,Kharif Cotton,Apr(B)-Apr(M),Oct(M)-Nov(M)
+Karnataka,Kharif Cotton,May(B)-Jun(E),Sep(B)-Oct(E)
+Kerala,Kharif Cotton,Jun(B)-Oct(E),Dec(B)-Mar(E)
+Madhya Pradesh,Kharif Cotton,Jun(M)-Jul(E),Aug(M)-Dec(E)
+Maharashtra,Kharif Cotton,Jul(B)-Aug(E),Oct(B)-Nov(E)
+Punjab,Kharif Cotton,Apr(B)-Mar(E),Sep(B)-Oct(E)
+Rajasthan,Kharif Cotton,Apr(B)-May(E),Nov(B)-Dec(E)
+Uttar Pradesh,Kharif Cotton,Apr(B)-Jun(E),Sep(B)-Nov(E)
+All India,Kharif Cotton,Apr-Jul,Sep-Dec
+Andhra Pradesh,Early Kharif Arhar,Jun(B)-Jun(M),Nov(M)-Dec(E)
+Andhra Pradesh,Kharif Arhar,Jun(M)-Jul(M),Dec(M)-Jan(M)
+Karnataka,Early Kharif Arhar,Jun(B)-Jun(M),Nov(B)-Dec(M)
+Karnataka,Kharif Arhar,Jun(M)-Jul(M),Dec(M)-Jan(M)
+Maharashtra,Early Kharif Arhar,Jun(B)-Jun(M),Dec(M)-Jan(M)
+Maharashtra,Kharif Arhar,Jun(M)-Jul(M),Dec(M)-Feb(M)
+Madhya Pradesh,Early Kharif Arhar,Jun(B)-Jun(M),Jun(B)-Jun(M)
+Madhya Pradesh,Kharif Arhar,Jun(M)-Jul(M),Jan(M)-Feb(M)
+All India,Early Kharif Arhar,Jun(B)-Jun(M),Nov(M)-Jan(M)
+All India,Kharif Arhar,Jun(B)-Jul(E),Dec(M)-Apr(E)
+Assam,Rabi Lentil,Oct(M)-Nov(M),Mar(M)-Apr(M)
+Bihar,Kharif Lentil,Jun(M)-Jul(B),Nov(B)-Dec(E)
+Bihar,Rabi Lentil,Oct(M)-Nov(M),Mar(M)-Apr(M)
+Goa,Kharif Lentil,Aug(B)-Sep(E),Dec(B)-Jan(E)
+Goa,Rabi Lentil,Nov(B)-Dec(E),Mar(B)-May(E)
+Punjab,Kharif Lentil,Jun(B)-Jul(E),Nov(B)-Dec(E)
+Punjab,Rabi Lentil,Oct-Nov,March-April
+West Bengal,Kharif Lentil,Nov(B)-Nov(E),Feb(B)-Mar(E)
+West Bengal,Rabi Lentil,Oct(M)-Nov(M),Mar(M)-Apr(M)
+Assam,Rabi Pea,Oct(M)-Nov(M),Mar(M)-April(M)
+Bihar,Rabi Pea,Oct(M)-Nov(M),Mar(M)-April(M)
+Chattisgarh,Rabi Pea,Oct(M)-Nov(M),Mar(M)-April(M)
+Jharkhand,Rabi Pea,Oct(M)-Nov(M),Mar(M)-Apr(M)
+Rajasthan,Rabi Pea,Oct(E)-Nov(M),Mar(B)-Apr(M)
+Tripura,Rabi Pea,Oct(E)-Nov(M),Mar(B)-Apr(M)
+Gujarat,Rabi Pea,Oct(M)-Nov(M),Mar(M)-Apr(M)
+Haryana,Rabi Pea,Oct(M)-Nov(M),Mar(M)-Apr(M)
+Madhya Pradesh,Rabi Pea,Oct(E)-Nov(M),Mar(B)-Apr(M)
+Uttar Pradesh,Rabi Pea,Oct(M)-Nov(M),Mar(M)-Apr(M)
+Assam,Rabi Chickpea,Oct(M)-Nov(M),March(B)-March(E)
+Bihar,Rabi Chickpea,Oct(M)-Nov(M),March(B)-March(E)
+Chattisgarh,Rabi Chickpea,Oct(B)-Oct(E),Feb(E)-March(E)
+Gujarat,Rabi Chickpea,Oct(B)-Nov(M),Feb(M)-March(E)
+Haryana,Rabi Chickpea,Oct(M)-Nov(E),March(M)-April(B)
+Karnataka,Rabi Chickpea,Sept(E)-Oct(E),Jan(M)-Feb(E)
+Madhya Pradesh,Rabi Chickpea,Oct(B)-Nov(B),Feb(M)-March(E)
+Maharashtra,Rabi Chickpea,Sept(E)-Oct(E),Feb(M)-March(E)
+Punjab,Rabi Chickpea,Oct(M)-Nov(E),March(M)-April(E)
+Uttar Pradesh,Rabi Chickpea,Oct(M)-Nov(E),March(M)-April(E)
+West Bengal,Rabi Chickpea,Oct(M)-Nov(E),March(B)-March(E)
+Andhra Pradesh,Kharif Groundnut,Jun(B)-july(E),Sep(M)-Nov(M)
+Andhra Pradesh,Rabi Groundnut,Nov(M)-Jan(E),Feb(E)-May(B)
+Assam,Rabi Groundnut,July(B)-Aug(E),Nov(B)-Dec(E)
+Gujarat,Kharif Groundnut,Jun(B)-July(E),Sep(B)-Nov(E)
+Gujarat,Summer Groundnut,Jan(B)-Feb(E),Apr(B)-May(E)
+Karnataka,Kharif Groundnut,Jun(B)-jul(E),Sep(B)-Oct(E)
+Karnataka,Rabi Groundnut,Nov(M)-Jan(E),Feb(E)-May(B)
+Karnataka,Summer Groundnut,Dec(B)-Jan(E),Mar(B)-Apr(E)
+Madhya Pradesh,Kharif Groundnut,Jun(M)-july(E),Sep(M)-Oct(E)
+Maharashtra,Kharif Groundnut,Jun(E)-Jul(E),Oct(B)-Nov(B)
+Maharashtra,Summer Groundnut,Jan(B)-Feb(E),Apr(B)-May(E)
+Rajasthan,Kharif Groundnut,Jun(B)-jul(E),Oct(B)-Nov(E)
+Uttar Pradesh,Kharif Groundnut,Jul(B)-jul(E),Oct(B)-Nov(B)
+West Bengal,Kharif Groundnut,Jun(E)-jul(B),Sep(E)-Oct(B)
+West Bengal,Rabi Groundnut,Oct(E)-Nov(B),Jan(E)-March(B)
+West Bengal,Summer Groundnut,Feb(B)-Mar(E),May(B)-Jun(E)
+Andhra Pradesh,Mustard/Banarasi rai,Nov(L)-Dec(E),Feb-March
+Assam,Toria,Nov(L)-Dec(E),Feb-March
+Bihar,Mustard,Oct(L)-Nov(L),Feb-March
+Bihar,Toria,Sep(L)-Oct(E),Jan-Feb
+Bihar,Yellow Sarson,Oct(E),Feb-March
+Gujarat,Mustard,Oct(L),Feb-March
+Gujarat,Yellow Sarson,Oct(L),Feb
+Haryana,Mustard,Within Oct,Feb-March
+Haryana,Toria,Sep(L),Dec-Jan
+Punjab,Mustard,Oct(L)-Nov(L),March-April
+Punjab,Toria,Sep(L),Dec-Jan
+Rajasthan,Mustard,Sep(L)-Oct(L),Feb-March
+Uttar Pradesh,Mustard,Within Oct,Feb-March
+Uttar Pradesh,Toria,Sep(L),Dec-Jan
+Uttar Pradesh,Yellow Sarson,Within Oct,Feb-March
+West Bengal,Mustard,Within Oct,Feb-March
+West Bengal,Toria,Oct(L)-Nov(E),Feb
+West Bengal,Yellow Sarson,Oct(L)-Nov(E),Feb-March
+Assam,Rabi Linseed,Oct(B)-Nov(B),Mar(B)-Apr(E)
+Andhra Pradesh,Rabi Linseed,Oct(B)-Oct(E),Feb(E)-Mar(E)
+Bihar,Rabi Linseed,Oct(B)-Nov(B),Mar(B)-Apr(E)
+M.P.,Rabi Linseed,Oct(B)-Nov(M),Mar(B)-Mar(E)
+Chhattisgarh,Rabi Linseed,Oct(B)-Nov(M),Mar(B)-Mar(E)
+Maharashtra,Rabi Linseed,Oct(B)-Oct(E),Mar(B)-Mar(E)
+Uttar Pradesh,Rabi Linseed,Oct(B)-Nov(B),Mar(B)-Apr(E)
+Orissa,Rabi Linseed,Oct(B)-Oct(E),Mar(B)-Mar(E)
+Jharkhand,Rabi Linseed,Oct(B)-Nov(B),Mar(B)-Apr(E)
+Karnataka,Rabi Linseed,Oct(B)-Oct(E),Feb(B)-Mar(M)
+Nagaland,Rabi Linseed,Oct(B)-Nov(B),Mar(B)-Apr(E)
+West Bengal,Rabi Linseed,Oct(B)-Nov(B),Mar(B)-Apr(M)
+Rajasthan,Rabi Linseed,Oct(B)-Oct(E),Feb(B)-Mar(E)
+Himachal Pradesh,Rabi Linseed,Oct(B)-Nov(B),Apr(E)-May(M)
+J & K,Rabi Linseed,Oct(B)-Nov(B),Apr(E)-May(M)
+Punjab,Rabi Linseed,Oct(M)-Nov(M),Mar(E)-Apr(E)
+Andhra Pradesh,Sugarcane (Kharif),Dec(E)-Jun(M),Dec(E)_May(M)
+Assam,Sugarcane (Kharif),Mar(B)-Apr(E),Dec(B)-Jan(E)
+Haryana,Sugarcane (Kharif),Feb(M)-Mar(M),Dec(M)-March(E)
+Karnataka,Sugarcane (Kharif),Dec(B)-Mar(E),Aug(B)-May(E)
+Kerala,Sugarcane (Kharif Jute),Jun(B)-Oct(E),Oct(B)-Jan(E)
+Madhya Pradesh,Sugarcane (Kharif),Oct(B)-Apr(E),Oct(E)-Mar(E)
+Maharashtra,Sugarcane (Kharif),Jul(B)-Aug(E),Oct(B)-Nov(E)
+Punjab,Sugarcane (Kharif),Feb(B)-Mar(E),Nov(B)-Feb(E)
+Rajasthan,Sugarcane (Kharif),Mar(B)-Apr(E),Dec(B)-Mar(E)
+Tamil Nadu,Sugarcane (Kharif),Dec(B)-Jan(E),Dec(B)-Jan(E)
+Uttar Pradesh,Sugarcane (Kharif),Feb(B)-Aug(E)/Rabi: Jun(B)-Oct(E),Aug(B)-nov(E)/Oct(B)-Jan(E)
+West Bengal,Sugarcane (Kharif Jute),Mar(B)-May(E),Jul(B)-Aug(E)
+All India,Sugarcane (Kharif/Rabi),Feb(B)-Aug(E)/Jun(B)-Oct(E),Aug(B)-nov(E)/Oct(B)-Jan(E)
+Madhya Pradesh,Soybean (Kharif),June(M)-July(M),Sept(E)-October(B)
+Maharashtra,Soybean (Kharif),June(M)-July(M),Sept(E)-Oct(B)
+Rajasthan,Soybean (Kharif),June(E)-July(M),Sept(E)-October(B)
+Karnataka,Soybean (Kharif),June(M)-July(B),Sept(E)-Oct(B)
+Andhra Pradesh,Soybean (Kharif),June(M)-July(M),Sept(E)-Oct(B)
+Chhattisgarh,Soybean (Kharif),June(M)-July(M),Sept(E)-October(B)
+Uttar Pradesh,Soybean (Kharif),June(E)-July(M),Sept(E)-October(B)
+Madhya Pradesh,Niger (Kharif),June(B)-July(E),Oct(B)-Nov(M)
+Madhya Pradesh,Niger (Late Kharif),Aug(B)-Sept(B),Nov(B)-Dec(B)
+Maharashtra,Niger (Kharif),June(B)-July(E),Oct(B)-Nov(M)
+Maharashtra,Niger (Late Kharif),Aug(B)-Sept(B),Nov(B)-Dec(B)
+Karnataka,Niger (Kharif),June(B)-July(E),Oct(B)-Nov(M)
+Karnataka,Niger (Late Kharif),Aug(B)-Sept(B),Nov(B)-Dec(B)
+Andhra Pradesh,Niger (Kharif),June(B)-July(E),Oct(B)-Nov(M)
+Andhra Pradesh,Niger (Late Kharif),Aug(B)-Sept(B),Nov(B)-Dec(B)
+Orissa,Niger (Kharif),June(B)-July(E),Oct(B)-Nov(M)
+Orissa,Niger (Late Kharif),Aug(B)-Sept(B),Nov(B)-Dec(B)
+Bihar/Jharkhand,Niger (Kharif),June(B)-July(E),Oct(B)-Nov(M)
+Bihar/Jharkhand,Niger (Late Kharif),Aug(B)-Sept(B),Nov(B)-Dec(B)
+Gujarat,Niger (Kharif),June(B)-July(E),Oct(B)-Nov(M)
+Gujarat,Niger (Late Kharif),Aug(B)-Sept(B),Nov(B)-Dec(B)
+Gujarat,Gram (Rabi),Oct(B)-Nov(E),Feb(B)-Mar(E)
+Haryana,Gram (Rabi),Oct(B)-Oct(M),Mar(M)-Mar(E)
+Karnataka,Gram (Rabi),Oct(B)-Nov(E),Jan(B)-Mar(E)
+Madhya Pradesh,Gram (Rabi),Oct(B)-Dec(B),Feb(B)-Apr(B)
+Maharashtra,Gram (Rabi),Sep(B)-Oct(E),Feb(B)-Mar(E)
+Uttar Pradesh,Gram (Rabi),Oct(B)-Nov(E),Mar(B)-Apr(E)
+Madhya Pradesh,Masur (Rabi),Sep(M)-Nov(E),Feb(M)-Apr(B)
+Uttar Pradesh,Masur (Rabi),Oct(B)-Nov(E),Mar(B)-Mar(E)

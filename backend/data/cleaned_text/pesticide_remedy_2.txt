@@ -2,46 +2,47 @@ Crop: Tomato
 Disease Or Pest: Early Blight
 Agent: Alternaria solani
 Pathogen Type: Fungus
-Recommended Treatment: Spray Difolatan 0.2% or Dithane M 45 0.2% or Bavistin 0.1%
+Recommended Treatment: Spray Difenoconazole 0.1% or Mancozeb 0.2% or Bordeaux mixture 0.5%
 Treatment Type: Chemical
-Active Ingredient: Difolatan, Dithane M 45, Bavistin
-Dosage: 0.2% or 0.1%
-Application Interval Days: 10
-Stage Applicable: Vegetative/Fruiting
-Organic Option: Use crop rotation and remove affected leaves
-Precautions: Avoid overuse of chemical fungicides
+Active Ingredient: Difenoconazole or Mancozeb
+Dosage: 0.1 0.2%
+Application Interval Days: 15
+Stage Applicable: Early to Fruiting
+Organic Option: Use crop rotation and remove infected leaves
+Precautions: Avoid overdose of fungicides
+Region Applicability: Pan India
 
 ---
 
-Crop: Rice
-Disease Or Pest: Leaf Blast
+Crop: Rice (Paddy)
+Disease Or Pest: Blast
 Agent: Pyricularia oryzae
 Pathogen Type: Fungus
-Recommended Treatment: Apply Tricyclazole 75 WP at 300 g/ha and remove volunteer plants
+Recommended Treatment: Apply Tricyclazole 75% WP at 300 g/ha and remove collateral plants
 Treatment Type: Chemical
 Active Ingredient: Tricyclazole
 Dosage: 300 g/ha
 Application Interval Days: 14
-Stage Applicable: Panicle initiation
-Organic Option: Use resistant varieties, maintain proper water depth
-Precautions: Avoid excessive nitrogen use
-
+Stage Applicable: Panicle Initiation
+Organic Option: Use resistant varieties; maintain proper water depth
+Precautions: Avoid excessive nitrogen application
+Region Applicability: Rice growing states
 
 ---
 
-Crop: Maize
+Crop: Maize (Corn)
 Disease Or Pest: Stem Borer
-Agent: Busseola fusca
+Agent: Sesamia inferens
 Pathogen Type: Insect
-Recommended Treatment: Install pheromone traps, spray Spinosad 45 SC 0.3 L/ha when >10% damage
-Treatment Type: Chemical/Insecticidal
+Recommended Treatment: Install pheromone traps; spray Spinosad 45 SC at 0.3 ml/L when damage >10%
+Treatment Type: Chemical
 Active Ingredient: Spinosad
-Dosage: 0.3 L/ha
-Application Interval Days: 10
-Stage Applicable: Early vegetative
-Organic Option: Use natural enemies, avoid broad spectrum insecticides
+Dosage: 0.3 ml/L
+Application Interval Days: 15
+Stage Applicable: Early Vegetative
+Organic Option: Encourage natural enemies like Trichogramma
 Precautions: Avoid spraying during flowering
-
+Region Applicability: Maize growing regions
 
 ---
 
@@ -49,15 +50,15 @@ Crop: Cotton
 Disease Or Pest: Bollworm
 Agent: Helicoverpa armigera
 Pathogen Type: Insect
-Recommended Treatment: Spray Emamectin Benzoate 5 SG at 220 g/ha or Bt formulation
-Treatment Type: Chemical/Biological
-Active Ingredient: Emamectin Benzoate, Bacillus thuringiensis
+Recommended Treatment: Spray Emamectin Benzoate 5 SG at 220 g/ha or use Bt formulations
+Treatment Type: Chemical
+Active Ingredient: Emamectin Benzoate or Bacillus thuringiensis
 Dosage: 220 g/ha
 Application Interval Days: 15
-Stage Applicable: Flowering/Boll formation
+Stage Applicable: Flowering to Boll Formation
 Organic Option: Use pheromone traps and neem based sprays
 Precautions: Rotate insecticides to prevent resistance
-
+Region Applicability: Cotton belts (Punjab, Maharashtra)
 
 ---
 
@@ -67,9 +68,890 @@ Agent: Phytophthora infestans
 Pathogen Type: Fungus
 Recommended Treatment: Spray Mancozeb 0.25% or Metalaxyl 8% + Mancozeb 64% WP
 Treatment Type: Chemical
-Active Ingredient: Mancozeb, Metalaxyl
+Active Ingredient: Mancozeb or Metalaxyl
 Dosage: 0.25% or 2.5 g/L
 Application Interval Days: 10
-Stage Applicable: Tuber formation
-Organic Option: Remove infected leaves, ensure proper spacing
-Precautions: Do not spray near harvest
+Stage Applicable: Tuber Formation
+Organic Option: Remove infected leaves and ensure proper spacing
+Precautions: Do not spray close to harvest
+Region Applicability: Hills & Northern India
+
+---
+
+Crop: Wheat
+Disease Or Pest: Brown Rust
+Agent: Puccinia triticina
+Pathogen Type: Fungus
+Recommended Treatment: Spray Propiconazole 25 EC at 500 ml/ha when symptoms appear
+Treatment Type: Chemical
+Active Ingredient: Propiconazole
+Dosage: 500 ml/ha
+Application Interval Days: 15
+Stage Applicable: Tillering to Booting
+Organic Option: Grow resistant varieties like HD 2967
+Precautions: Avoid planting infected seeds
+Region Applicability: North & Central India
+
+---
+
+Crop: Sugarcane
+Disease Or Pest: Red Rot
+Agent: Colletotrichum falcatum
+Pathogen Type: Fungus
+Recommended Treatment: Use disease free setts; treat with Carbendazim 0.1% before planting
+Treatment Type: Chemical
+Active Ingredient: Carbendazim
+Dosage: 0.001
+Application Interval Days: 0
+Stage Applicable: Pre planting
+Organic Option: Use setts from heat treated crops
+Precautions: Avoid waterlogging
+Region Applicability: Sugarcane growing regions
+
+---
+
+Crop: Pigeon Pea (Arhar)
+Disease Or Pest: Wilt
+Agent: Fusarium udum
+Pathogen Type: Fungus
+Recommended Treatment: Seed treatment with Trichoderma viride at 4 g/kg seed
+Treatment Type: Biological
+Active Ingredient: Trichoderma viride
+Dosage: 4 g/kg seed
+Application Interval Days: 0
+Stage Applicable: Pre sowing
+Organic Option: Use resistant varieties (e.g. ICP 8863)
+Precautions: Avoid waterlogging
+Region Applicability: Central & South India
+
+---
+
+Crop: Gram (Chana)
+Disease Or Pest: Pod Borer
+Agent: Helicoverpa armigera
+Pathogen Type: Insect
+Recommended Treatment: Apply Indoxacarb 15.8 EC at 0.5 ml/L water when larvae are small
+Treatment Type: Chemical/Biological
+Active Ingredient: Indoxacarb
+Dosage: 0.5 ml/L
+Application Interval Days: 15 Oct
+Stage Applicable: Pod Formation
+Organic Option: Use pheromone traps; release Chrysoperla larvae
+Precautions: Monitor pest intensity regularly
+Region Applicability: Gram growing regions
+
+---
+
+Crop: Mustard
+Disease Or Pest: White Rust
+Agent: Albugo candida
+Pathogen Type: Oomycete
+Recommended Treatment: Spray Metalaxyl + Mancozeb (0.2%) at first appearance of white pustules
+Treatment Type: Chemical
+Active Ingredient: Metalaxyl + Mancozeb
+Dosage: 0.20%
+Application Interval Days: 15
+Stage Applicable: Rosette to Flowering
+Organic Option: Maintain proper field sanitation
+Precautions: Avoid continuous planting of susceptible varieties
+Region Applicability: North India
+
+---
+
+Crop: Groundnut (Peanut)
+Disease Or Pest: Tikka Leaf Spot
+Agent: Cercospora arachidicola
+Pathogen Type: Fungus
+Recommended Treatment: Spray Carbendazim 0.05% or Mancozeb 0.2%
+Treatment Type: Chemical
+Active Ingredient: Carbendazim or Mancozeb
+Dosage: 0.05% 0.2%
+Application Interval Days: 12 Oct
+Stage Applicable: 40 70 Days After Sowing
+Organic Option: Grow resistant varieties like SG 99
+Precautions: Avoid overhead irrigation during evening
+Region Applicability: Andhra Pradesh, Gujarat
+
+---
+
+Crop: Banana
+Disease Or Pest: Panama Wilt
+Agent: Fusarium oxysporum f. sp. cubense
+Pathogen Type: Fungus
+Recommended Treatment: No effective chemical control; use biological and cultural practices
+Treatment Type: Cultural/Biological
+Active Ingredient: Trichoderma harzianum (soil application)
+Dosage: 10 g/plant
+Application Interval Days: 30 60
+Stage Applicable: All Stages
+Organic Option: Use tissue culture plants; soil solarization
+Precautions: Avoid movement of infected soil
+Region Applicability: All banana growing regions
+
+---
+
+Crop: Barley
+Disease Or Pest: Loose Smut
+Agent: Ustilago nuda
+Pathogen Type: Fungus
+Recommended Treatment: Treat seed with Carboxin 37.5% + Thiram 37.5% DS at 2.5 g/kg seed
+Treatment Type: Chemical/Cultural
+Active Ingredient: Carboxin + Thiram
+Dosage: 2.5 g/kg seed
+Application Interval Days: 0
+Stage Applicable: Pre sowing (seed treatment)
+Organic Option: Hot water seed treatment
+Precautions: Use certified seeds
+Region Applicability: Northern India
+
+---
+
+Crop: Coffee
+Disease Or Pest: Leaf Rust
+Agent: Hemileia vastatrix
+Pathogen Type: Fungus
+Recommended Treatment: Spray Copper Oxychloride 0.5% (Bordeaux mixture) twice a year
+Treatment Type: Chemical
+Active Ingredient: Copper Oxychloride
+Dosage: 0.005
+Application Interval Days: 90
+Stage Applicable: Active vegetative
+Organic Option: Maintain shade and balanced nutrition
+Precautions: Ensure thorough coverage on leaf undersides
+Region Applicability: Hilly regions of South India
+
+---
+
+Crop: Turmeric
+Disease Or Pest: Rhizome Rot (Soft Rot)
+Agent: Pythium spp. / Fusarium spp.
+Pathogen Type: Oomycete/Fungus
+Recommended Treatment: Dip rhizomes in Metalaxyl + Mancozeb (0.3%) before planting
+Treatment Type: Chemical
+Active Ingredient: Metalaxyl + Mancozeb
+Dosage: 0.003
+Application Interval Days: 0
+Stage Applicable: Pre sowing (Rhizome treatment)
+Organic Option: Use Trichoderma viride drenching
+Precautions: Ensure good drainage and avoid injury to rhizomes
+Region Applicability: All Turmeric growing regions
+
+---
+
+Crop: Soybean
+Disease Or Pest: Yellow Mosaic Virus
+Agent: Bean Yellow Mosaic Virus
+Pathogen Type: Virus
+Recommended Treatment: Uproot infected plants; spray Imidacloprid 17.8 SL (0.5 ml/L) to control whitefly vector
+Treatment Type: Chemical (Vector)
+Active Ingredient: Imidacloprid
+Dosage: 0.5 ml/L
+Application Interval Days: 15
+Stage Applicable: Early Vegetative
+Organic Option: Use resistant varieties; remove weeds
+Precautions: Avoid using infected seeds
+Region Applicability: Madhya Pradesh & Maharashtra
+
+---
+
+Crop: Onion
+Disease Or Pest: Purple Blotch
+Agent: Alternaria porri
+Pathogen Type: Fungus
+Recommended Treatment: Spray Mancozeb 0.25% or Iprodione 0.2% at 10 day intervals
+Treatment Type: Chemical
+Active Ingredient: Mancozeb or Iprodione
+Dosage: 0.2% 0.25%
+Application Interval Days: 10
+Stage Applicable: Leaf Development
+Organic Option: Ensure good air circulation and drainage
+Precautions: Avoid overhead irrigation
+Region Applicability: Tamil Nadu, Karnataka
+
+---
+
+Crop: Cabbage
+Disease Or Pest: Black Rot
+Agent: Xanthomonas campestris
+Pathogen Type: Bacteria
+Recommended Treatment: Seed treatment with hot water (50degC for 30 min) and Copper Oxychloride spray 0.3%
+Treatment Type: Chemical
+Active Ingredient: Copper Oxychloride
+Dosage: 0.003
+Application Interval Days: 7
+Stage Applicable: Early Growth
+Organic Option: Use disease free seed and rotate crops
+Precautions: Avoid excessive watering
+Region Applicability: Pan India
+
+---
+
+Crop: Jute
+Disease Or Pest: Stem Rot
+Agent: Macrophomina phaseolina
+Pathogen Type: Fungus
+Recommended Treatment: Treat seed with Thiram 0.3% and soil drenching with Trichoderma viride
+Treatment Type: Biological/Chemical
+Active Ingredient: Thiram or Trichoderma viride
+Dosage: 0.1% 0.3%
+Application Interval Days: 15
+Stage Applicable: Early Growth
+Organic Option: Maintain proper drainage
+Precautions: Do not over irrigate
+Region Applicability: West Bengal
+
+---
+
+Crop: Tea
+Disease Or Pest: Blister Blight
+Agent: Exobasidium vexans
+Pathogen Type: Fungus
+Recommended Treatment: Spray Copper Oxychloride 0.3% at fortnightly intervals during wet season
+Treatment Type: Chemical
+Active Ingredient: Copper Oxychloride
+Dosage: 0.003
+Application Interval Days: 15
+Stage Applicable: Active Growth
+Organic Option: Prune infected shoots
+Precautions: Avoid spraying during heavy rain
+Region Applicability: Assam, Darjeeling
+
+---
+
+Crop: Mango
+Disease Or Pest: Anthracnose
+Agent: Colletotrichum gloeosporioides
+Pathogen Type: Fungus
+Recommended Treatment: Spray Carbendazim 0.1% or Copper Oxychloride 0.3% before flowering
+Treatment Type: Chemical
+Active Ingredient: Mancozeb or Copper Oxychloride
+Dosage: 0.1% 0.3%
+Application Interval Days: 15
+Stage Applicable: Pre flowering to Fruiting
+Organic Option: Remove infected twigs and fruits
+Precautions: Avoid high humidity during flowering
+Region Applicability: Mango belts UP, Bihar, Andhra
+
+---
+
+Crop: Citrus (Orange)
+Disease Or Pest: Canker
+Agent: Xanthomonas citri
+Pathogen Type: Bacteria
+Recommended Treatment: Spray Copper Oxychloride 0.3% or Streptocycline 100 ppm
+Treatment Type: Chemical
+Active Ingredient: Copper Oxychloride or Streptocycline
+Dosage: 0.3% or 100 ppm
+Application Interval Days: 30
+Stage Applicable: Active Growth
+Organic Option: Use windbreaks; remove infected twigs
+Precautions: Avoid pruning during wet season
+Region Applicability: Maharashtra & Punjab
+
+---
+
+Crop: Coconut
+Disease Or Pest: Bud Rot
+Agent: Phytophthora palmivora
+Pathogen Type: Fungus
+Recommended Treatment: Apply Bordeaux mixture 1% on crown region and remove infected tissues
+Treatment Type: Chemical/Cultural
+Active Ingredient: Bordeaux mixture
+Dosage: 0.01
+Application Interval Days: 30
+Stage Applicable: All Stages
+Organic Option: Keep crown clean and dry
+Precautions: Avoid water stagnation
+Region Applicability: Kerala & Coastal regions
+
+---
+
+Crop: Black Pepper
+Disease Or Pest: Quick Wilt (Foot Rot)
+Agent: Phytophthora capsici
+Pathogen Type: Fungus
+Recommended Treatment: Apply Metalaxyl + Mancozeb 0.2% soil drench around vines
+Treatment Type: Chemical
+Active Ingredient: Metalaxyl + Mancozeb
+Dosage: 0.002
+Application Interval Days: 20
+Stage Applicable: Pre Monsoon
+Organic Option: Apply Trichoderma near root zone
+Precautions: Ensure drainage and mulching
+Region Applicability: Kerala
+
+---
+
+Crop: Ginger
+Disease Or Pest: Soft Rot
+Agent: Pythium spp.
+Pathogen Type: Fungus
+Recommended Treatment: Treat rhizomes with Mancozeb 0.3% or Trichoderma suspension before planting
+Treatment Type: Chemical
+Active Ingredient: Mancozeb
+Dosage: 0.003
+Application Interval Days: 0
+Stage Applicable: Pre sowing
+Organic Option: Use raised beds for drainage
+Precautions: Do not use infected rhizomes
+Region Applicability: All Ginger growing regions
+
+---
+
+Crop: Millets (Bajra)
+Disease Or Pest: Ergot
+Agent: Claviceps fusiformis
+Pathogen Type: Fungus
+Recommended Treatment: Remove sclerotia via brine solution (10%); Spray Ziram 0.2% at boot leaf
+Treatment Type: Chemical
+Active Ingredient: Ziram
+Dosage: 0.002
+Application Interval Days: 10 Oct
+Stage Applicable: Boot Leaf Stage
+Organic Option: Use clean seeds; crop rotation
+Precautions: Avoid late sowing
+Region Applicability: Rajasthan, Karnataka, Maharashtra
+
+---
+
+Crop: Oats
+Disease Or Pest: Leaf Blotch
+Agent: Pyrenophora avenae
+Pathogen Type: Fungus
+Recommended Treatment: Spray Mancozeb 0.25% at 10 day interval after symptom appearance
+Treatment Type: Chemical
+Active Ingredient: Mancozeb
+Dosage: 0.0025
+Application Interval Days: 10
+Stage Applicable: Active Growth
+Organic Option: Rotate crops; remove infected residues
+Precautions: Do not over irrigate
+Region Applicability: North India
+
+---
+
+Crop: Foxtail Millet
+Disease Or Pest: Blast
+Agent: Pyricularia setariae
+Pathogen Type: Fungus
+Recommended Treatment: Spray Tricyclazole 0.6 g/L water
+Treatment Type: Chemical
+Active Ingredient: Tricyclazole
+Dosage: 0.6 g/L
+Application Interval Days: 15
+Stage Applicable: Panicle Initiation
+Organic Option: Use clean seed and crop rotation
+Precautions: Avoid water stagnation
+Region Applicability: South and Central India
+
+---
+
+Crop: Little Millet
+Disease Or Pest: Leaf Spot
+Agent: Helminthosporium spp.
+Pathogen Type: Fungus
+Recommended Treatment: Spray Mancozeb 0.2% or Carbendazim 0.1%
+Treatment Type: Chemical
+Active Ingredient: Mancozeb or Carbendazim
+Dosage: 0.002
+Application Interval Days: 15 Oct
+Stage Applicable: Tillering Stage
+Organic Option: Use disease free seed
+Precautions: Maintain field sanitation
+Region Applicability: Madhya Pradesh and Tamil Nadu
+
+---
+
+Crop: Barnyard Millet
+Disease Or Pest: Rust
+Agent: Puccinia spp.
+Pathogen Type: Fungus
+Recommended Treatment: Spray Mancozeb 0.25% at 15 day interval
+Treatment Type: Chemical
+Active Ingredient: Mancozeb
+Dosage: 0.0025
+Application Interval Days: 15
+Stage Applicable: Active Vegetative
+Organic Option: Use resistant varieties
+Precautions: Avoid excessive nitrogen
+Region Applicability: Uttarakhand and North East
+
+---
+
+Crop: Proso Millet
+Disease Or Pest: Leaf Spot
+Agent: Alternaria spp.
+Pathogen Type: Fungus
+Recommended Treatment: Spray Mancozeb 0.25% twice at 15 day interval
+Treatment Type: Chemical
+Active Ingredient: Mancozeb
+Dosage: 0.0025
+Application Interval Days: 15
+Stage Applicable: Vegetative
+Organic Option: Use certified seeds and crop rotation
+Precautions: Avoid overflow
+Region Applicability: Central India
+
+---
+
+Crop: Moong (Green Gram)
+Disease Or Pest: Yellow Mosaic Virus
+Agent: MYMV
+Pathogen Type: Virus
+Recommended Treatment: Remove infected plants; spray Imidacloprid 0.5 ml/L to control vector
+Treatment Type: Chemical
+Active Ingredient: Imidacloprid
+Dosage: 0.0005
+Application Interval Days: 15
+Stage Applicable: Early Vegetative
+Organic Option: Use resistant varieties like PDM 11
+Precautions: Avoid mixed cropping with okra/brinjal
+Region Applicability: North & Central India
+
+---
+
+Crop: Masoor (Lentil)
+Disease Or Pest: Rust
+Agent: Uromyces viciae fabae
+Pathogen Type: Fungus
+Recommended Treatment: Spray Propiconazole 25 EC (0.1%) at first appearance
+Treatment Type: Chemical
+Active Ingredient: Propiconazole
+Dosage: 0.001
+Application Interval Days: 15
+Stage Applicable: Flowering
+Organic Option: Use resistant varieties
+Precautions: Remove crop debris post harvest
+Region Applicability: North India
+
+---
+
+Crop: Urad (Black Gram)
+Disease Or Pest: Cercospora Leaf Spot
+Agent: Cercospora canescens
+Pathogen Type: Fungus
+Recommended Treatment: Spray Mancozeb 0.25% or Carbendazim 0.1%
+Treatment Type: Chemical
+Active Ingredient: Carbendazim or Mancozeb
+Dosage: 0.0025
+Application Interval Days: 15
+Stage Applicable: Flowering
+Organic Option: Use crop rotation; treat seed with Thiram 3 g/kg
+Precautions: Avoid late sowing
+Region Applicability: All pulse growing states
+
+---
+
+Crop: Rajma (Kidney Bean)
+Disease Or Pest: Anthracnose
+Agent: Colletotrichum lindemuthianum
+Pathogen Type: Fungus
+Recommended Treatment: Spray Carbendazim 0.1% or Mancozeb 0.2%
+Treatment Type: Chemical
+Active Ingredient: Carbendazim or Mancozeb
+Dosage: 0.1% 0.2%
+Application Interval Days: 12
+Stage Applicable: Vegetative to Pod Formation
+Organic Option: Use certified disease free seeds
+Precautions: Avoid excessive irrigation
+Region Applicability: Himalayan & Northern regions
+
+---
+
+Crop: Cowpea (Lobia)
+Disease Or Pest: Mosaic Virus
+Agent: Cowpea Mosaic Virus
+Pathogen Type: Virus
+Recommended Treatment: Remove infected plants; control aphids using Imidacloprid 0.3 ml/L
+Treatment Type: Chemical
+Active Ingredient: Imidacloprid
+Dosage: 0.3 ml/L
+Application Interval Days: 15
+Stage Applicable: Early Vegetative
+Organic Option: Use resistant variety and clean fields
+Precautions: Avoid waterlogging
+Region Applicability: South & Central India
+
+---
+
+Crop: Horse Gram (Kulthi)
+Disease Or Pest: Leaf Spot
+Agent: Cercospora spp.
+Pathogen Type: Fungus
+Recommended Treatment: Spray Mancozeb 0.25% at 10 day interval
+Treatment Type: Chemical
+Active Ingredient: Mancozeb
+Dosage: 0.0025
+Application Interval Days: 10
+Stage Applicable: Vegetative Stage
+Organic Option: Rotate crops and remove residues
+Precautions: Avoid excessive irrigation
+Region Applicability: South India
+
+---
+
+Crop: Sunflower
+Disease Or Pest: Downy Mildew
+Agent: Plasmopara halstedii
+Pathogen Type: Fungus
+Recommended Treatment: Spray Metalaxyl 0.2% and maintain crop rotation
+Treatment Type: Chemical
+Active Ingredient: Metalaxyl
+Dosage: 0.002
+Application Interval Days: 15
+Stage Applicable: Early Growth
+Organic Option: Use resistant hybrids
+Precautions: Avoid overwatering
+Region Applicability: Andhra Pradesh & Karnataka
+
+---
+
+Crop: Sesame (Til)
+Disease Or Pest: Leaf Curl Virus
+Agent: Begomovirus
+Pathogen Type: Virus
+Recommended Treatment: Control whitefly vector using Imidacloprid 0.5 ml/L
+Treatment Type: Chemical
+Active Ingredient: Imidacloprid
+Dosage: 0.5 ml/L
+Application Interval Days: 15
+Stage Applicable: Early Growth
+Organic Option: Use tolerant varieties and balanced nutrition
+Precautions: Avoid mixed cropping with cotton
+Region Applicability: All sesame growing regions
+
+---
+
+Crop: Linseed (Alsi)
+Disease Or Pest: Wilt
+Agent: Fusarium oxysporum
+Pathogen Type: Fungus
+Recommended Treatment: Seed treatment with Trichoderma 4 g/kg; crop rotation
+Treatment Type: Biological
+Active Ingredient: Trichoderma viride
+Dosage: 4 g/kg seed
+Application Interval Days: 0
+Stage Applicable: Pre sowing
+Organic Option: Use disease free seed and crop rotation
+Precautions: Avoid continuous cropping
+Region Applicability: Northern & Eastern India
+
+---
+
+Crop: Castor Seed
+Disease Or Pest: Gray Mold
+Agent: Botrytis ricini
+Pathogen Type: Fungus
+Recommended Treatment: Spray Carbendazim 0.1% or Chlorothalonil 0.2%
+Treatment Type: Chemical
+Active Ingredient: Carbendazim or Chlorothalonil
+Dosage: 0.1% 0.2%
+Application Interval Days: 12
+Stage Applicable: Flowering to Capsule Formation
+Organic Option: Maintain air circulation
+Precautions: Do not overuse nitrogen
+Region Applicability: Gujarat & Andhra Pradesh
+
+---
+
+Crop: Safflower (Kardi)
+Disease Or Pest: Alternaria Leaf Spot
+Agent: Alternaria carthami
+Pathogen Type: Fungus
+Recommended Treatment: Spray Mancozeb 0.25% at early infection stage
+Treatment Type: Chemical
+Active Ingredient: Mancozeb
+Dosage: 0.0025
+Application Interval Days: 15
+Stage Applicable: Vegetative to Flowering
+Organic Option: Use tolerant varieties
+Precautions: Avoid dense sowing
+Region Applicability: Maharashtra & Karnataka
+
+---
+
+Crop: Niger Seed
+Disease Or Pest: Leaf Blight
+Agent: Cercospora guizotiae
+Pathogen Type: Fungus
+Recommended Treatment: Spray Mancozeb 0.25% twice at 10 day intervals
+Treatment Type: Chemical
+Active Ingredient: Mancozeb
+Dosage: 0.0025
+Application Interval Days: 10
+Stage Applicable: Flowering Stage
+Organic Option: Ensure good drainage and sanitation
+Precautions: Avoid excessive soil moisture
+Region Applicability: Central India
+
+---
+
+Crop: Tobacco
+Disease Or Pest: Black Shank
+Agent: Phytophthora nicotianae
+Pathogen Type: Fungus
+Recommended Treatment: Drench soil with Metalaxyl + Mancozeb 0.2% or use crop rotation
+Treatment Type: Chemical
+Active Ingredient: Metalaxyl + Mancozeb
+Dosage: 0.20%
+Application Interval Days: 15
+Stage Applicable: Transplanting Stage
+Organic Option: Use resistant varieties
+Precautions: Avoid excessive soil moisture
+Region Applicability: Andhra Pradesh & Gujarat
+
+---
+
+Crop: Rubber
+Disease Or Pest: Leaf Fall Disease
+Agent: Corynespora cassiicola
+Pathogen Type: Fungus
+Recommended Treatment: Apply Copper Oxychloride 0.5% on affected leaves
+Treatment Type: Chemical
+Active Ingredient: Copper Oxychloride
+Dosage: 0.005
+Application Interval Days: 20
+Stage Applicable: Active Vegetative Stage
+Organic Option: Maintain field hygiene
+Precautions: Avoid pruning during wet season
+Region Applicability: Kerala & NE states
+
+---
+
+Crop: Arecanut (Supari)
+Disease Or Pest: Koleroga (Fruit Rot)
+Agent: Phytophthora arecae
+Pathogen Type: Fungus
+Recommended Treatment: Apply Bordeaux mixture 1% to crown region
+Treatment Type: Chemical
+Active Ingredient: Bordeaux Mixture
+Dosage: 0.01
+Application Interval Days: 30
+Stage Applicable: Monsoon Season
+Organic Option: Maintain good drainage
+Precautions: Avoid stagnant water
+Region Applicability: Coastal Karnataka & Kerala
+
+---
+
+Crop: Kenaf
+Disease Or Pest: Stem Rot
+Agent: Macrophomina phaseolina
+Pathogen Type: Fungus
+Recommended Treatment: Spray Carbendazim 0.1% and ensure proper drainage
+Treatment Type: Chemical
+Active Ingredient: Benomyl or Carbendazim
+Dosage: 0.001
+Application Interval Days: 15
+Stage Applicable: Vegetative
+Organic Option: Use crop rotation
+Precautions: Avoid waterlogging
+Region Applicability: Eastern India
+
+---
+
+Crop: Hemp
+Disease Or Pest: Root Rot
+Agent: Fusarium oxysporum
+Pathogen Type: Fungus
+Recommended Treatment: Apply Trichoderma viride at 5 g/kg seed and soil drenching
+Treatment Type: Biological
+Active Ingredient: Trichoderma viride
+Dosage: 5 g/kg seed
+Application Interval Days: 0
+Stage Applicable: Pre sowing
+Organic Option: Use crop rotation and healthy soil
+Precautions: Avoid excess nitrogen
+Region Applicability: North India
+
+---
+
+Crop: Papaya
+Disease Or Pest: Leaf Curl Virus
+Agent: Begomovirus
+Pathogen Type: Virus
+Recommended Treatment: Control whitefly vector with Imidacloprid 0.5 ml/L
+Treatment Type: Chemical
+Active Ingredient: Imidacloprid
+Dosage: 0.5 ml/L
+Application Interval Days: 10
+Stage Applicable: Vegetative Stage
+Organic Option: Use resistant varieties
+Precautions: Avoid intercropping with solanaceous crops
+Region Applicability: Tropical regions
+
+---
+
+Crop: Guava
+Disease Or Pest: Wilt
+Agent: Fusarium oxysporum
+Pathogen Type: Fungus
+Recommended Treatment: Soil drenching with Carbendazim 0.1% or Trichoderma culture
+Treatment Type: Biological/Chemical
+Active Ingredient: Carbendazim or Trichoderma
+Dosage: 0.001
+Application Interval Days: 20
+Stage Applicable: Early Fruiting
+Organic Option: Use well drained soil
+Precautions: Avoid waterlogging
+Region Applicability: UP & Bihar
+
+---
+
+Crop: Pomegranate
+Disease Or Pest: Bacterial Blight
+Agent: Xanthomonas axonopodis pv. punicae
+Pathogen Type: Bacteria
+Recommended Treatment: Spray Copper Oxychloride 0.3% + Streptocycline 100 ppm
+Treatment Type: Chemical
+Active Ingredient: Copper Oxychloride + Streptocycline
+Dosage: 0.3% + 100 ppm
+Application Interval Days: 15
+Stage Applicable: Fruiting Stage
+Organic Option: Use infected twig removal
+Precautions: Avoid overhead irrigation
+Region Applicability: Maharashtra & Karnataka
+
+---
+
+Crop: Pineapple
+Disease Or Pest: Heart Rot
+Agent: Phytophthora spp.
+Pathogen Type: Fungus
+Recommended Treatment: Drench crown with Mancozeb 0.2% drench at base
+Treatment Type: Chemical
+Active Ingredient: Mancozeb
+Dosage: 0.002
+Application Interval Days: 20
+Stage Applicable: Vegetative Stage
+Organic Option: Ensure drainage and avoid injury
+Precautions: Avoid planting in low lying fields
+Region Applicability: Assam & Meghalaya
+
+---
+
+Crop: Sapota (Chiku)
+Disease Or Pest: Leaf Spot
+Agent: Phaeophleospora indica
+Pathogen Type: Fungus
+Recommended Treatment: Spray Carbendazim 0.1% at 15 day interval
+Treatment Type: Chemical
+Active Ingredient: Carbendazim
+Dosage: 0.001
+Application Interval Days: 15
+Stage Applicable: Vegetative Stage
+Organic Option: Remove infected leaves
+Precautions: Avoid dense planting
+Region Applicability: Maharashtra & Gujarat
+
+---
+
+Crop: Litchi
+Disease Or Pest: Fruit Borer
+Agent: Conopomorpha sinensis
+Pathogen Type: Insect
+Recommended Treatment: Spray Spinosad 0.3 ml/L at early infestation
+Treatment Type: Chemical
+Active Ingredient: Spinosad
+Dosage: 0.3 ml/L
+Application Interval Days: 15
+Stage Applicable: Fruit Development
+Organic Option: Use pheromone traps
+Precautions: Avoid spraying during flowering
+Region Applicability: Bihar & West Bengal
+
+---
+
+Crop: Watermelon
+Disease Or Pest: Anthracnose
+Agent: Colletotrichum lagenarium
+Pathogen Type: Fungus
+Recommended Treatment: Spray Mancozeb 0.25% or Carbendazim 0.1%
+Treatment Type: Chemical
+Active Ingredient: Mancozeb or Carbendazim
+Dosage: 0.0025
+Application Interval Days: 10
+Stage Applicable: Vegetative to Fruiting
+Organic Option: Use crop rotation
+Precautions: Avoid overhead irrigation
+Region Applicability: All India
+
+---
+
+Crop: Muskmelon
+Disease Or Pest: Downy Mildew
+Agent: Pseudoperonospora cubensis
+Pathogen Type: Fungus
+Recommended Treatment: Spray Metalaxyl + Mancozeb 0.2% twice at 10 day interval
+Treatment Type: Chemical
+Active Ingredient: Metalaxyl + Mancozeb
+Dosage: 0.002
+Application Interval Days: 10
+Stage Applicable: Vegetative
+Organic Option: Use resistant hybrids
+Precautions: Ensure proper ventilation
+Region Applicability: North India
+
+---
+
+Crop: Cauliflower
+Disease Or Pest: Black Rot
+Agent: Xanthomonas campestris pv. campestris
+Pathogen Type: Bacteria
+Recommended Treatment: Spray Copper Oxychloride 0.3% and practice crop rotation
+Treatment Type: Chemical
+Active Ingredient: Copper Oxychloride
+Dosage: 0.003
+Application Interval Days: 15
+Stage Applicable: Vegetative
+Organic Option: Use hot water treated seed
+Precautions: Avoid continuous cropping
+Region Applicability: Pan India
+
+---
+
+Crop: Brinjal (Eggplant)
+Disease Or Pest: Shoot and Fruit Borer
+Agent: Leucinodes orbonalis
+Pathogen Type: Insect
+Recommended Treatment: Spray Emamectin Benzoate 0.4 g/L water
+Treatment Type: Chemical
+Active Ingredient: Emamectin Benzoate
+Dosage: 0.4 g/L
+Application Interval Days: 15
+Stage Applicable: Flowering to Fruiting
+Organic Option: Use pheromone traps and neem extract
+Precautions: Avoid continuous cropping
+Region Applicability: All Brinjal growing areas
+
+---
+
+Crop: Okra (Lady's Finger)
+Disease Or Pest: Yellow Vein Mosaic Virus
+Agent: Begomovirus
+Pathogen Type: Virus
+Recommended Treatment: Spray Imidacloprid 0.3 ml/L to control whiteflies
+Treatment Type: Chemical
+Active Ingredient: Imidacloprid
+Dosage: 0.3 ml/L
+Application Interval Days: 10
+Stage Applicable: Vegetative to Fruiting
+Organic Option: Use resistant varieties; remove infected plants
+Precautions: Avoid mixed cropping with cotton
+Region Applicability: All India
+
+---
+
+Crop: Spinach (Palak)
+Disease Or Pest: Leaf Spot
+Agent: Alternaria alternata
+Pathogen Type: Fungus
+Recommended Treatment: Spray Mancozeb 0.25% at 10 day interval
+Treatment Type: Chemical
+Active Ingredient: Mancozeb
+Dosage: 0.0025
+Application Interval Days: 10
+Stage Applicable: Leaf Development
+Organic Option: Ensure proper spacing and hygiene
+Precautions: Avoid overhead irrigation
+Region Applicability: North India

@@ -1,5 +1,12 @@
+# macOS
 .DS_Store
+
+# Python
 __pycache__/
 *.pyc
+
+# Virtual environments
 venv/
 .env
+# Generated training artifacts
+backend/data/**/train-*.*

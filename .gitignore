@@ -1,11 +1,5 @@
-# macOS
 .DS_Store
-
-# Python
 __pycache__/
 *.pyc
-
-# Virtual environments
 venv/
 .env
-backend/data/**/train-*.*

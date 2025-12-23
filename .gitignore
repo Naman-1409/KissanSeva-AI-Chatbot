@@ -8,3 +8,5 @@ __pycache__/
 # Virtual environments
 venv/
 .env
+# Generated training artifacts
+backend/data/**/train-*.*

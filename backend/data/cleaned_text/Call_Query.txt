@@ -1097,6 +1097,11 @@ Answers: Not necessarily. In many cases, hunger is not caused by a shortage of f
 
 ---
 
+Question: what causes hunger?
+Answers: poverty
+
+---
+
 Question: What is gene editing? How is it different from genetic engineering?
 Answers: Gene editing allows scientists to make changes to a specific target sequence of DNA within a gene. It modifies the gene in a precise and predictable manner
 
@@ -3803,6 +3808,11 @@ Answers: To control these pests, farmers can adopt several practices, including 
 
 Question: which beetle feed on the leaves of bean plants, causing holes and defoliation, which can reduce yields.
 Answers: Bean leaf beetles (Cerotoma trifurcata)
+
+---
+
+Question: what causes blight?
+Answers: blight
 
 ---
 

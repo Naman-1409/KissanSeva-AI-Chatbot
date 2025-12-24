@@ -9,3 +9,11 @@ __pycache__/
 venv/
 .env
 # Generated training artifacts
+# Python cache
+__pycache__/
+*.pyc
+
+# Vector store / embeddings
+backend/vector_store/
+*.pkl
+*.index

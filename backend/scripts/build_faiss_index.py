@@ -1,6 +1,9 @@
 import os
 import pickle
 import faiss
+
+os.environ["TOKENIZERS_PARALLELISM"] = "false"
+
 from chunk_text import chunk_text
 from create_embeddings import get_embeddings
 
@@ -13,34 +16,53 @@ os.makedirs(FAISS_DIR, exist_ok=True)
 all_chunks = []
 metadata = []
 
-# Step 1: Read all text files
+print("📥 Reading cleaned text files...")
+
 for file in os.listdir(TEXT_DIR):
     if not file.endswith(".txt"):
         continue
 
+    dataset_name = file.replace(".txt", "").lower()
     file_path = os.path.join(TEXT_DIR, file)
+
     with open(file_path, "r", encoding="utf-8") as f:
         text = f.read()
 
     chunks = chunk_text(text)
 
+    print(f"  {file}: {len(chunks)} chunks")
+
     for chunk in chunks:
         all_chunks.append(chunk)
         metadata.append({
+            "source": dataset_name,
             "source_file": file
         })
 
-print(f"Total chunks created: {len(all_chunks)}")
+print(f"\n✅ Total chunks created: {len(all_chunks)}")
 
-# Step 2: Create embeddings
+# --------------------------------------------------
+# CREATE EMBEDDINGS (GROQ)
+# --------------------------------------------------
+
 embeddings = get_embeddings(all_chunks)
 
-# Step 3: Create FAISS index
+# --------------------------------------------------
+# BUILD FAISS INDEX
+# --------------------------------------------------
+
 dimension = embeddings.shape[1]
+print(f"🔧 Embedding dimension: {dimension}")
+
 index = faiss.IndexFlatL2(dimension)
 index.add(embeddings)
 
-# Step 4: Save index and metadata
+print("📦 Saving FAISS index...")
+
+# --------------------------------------------------
+# SAVE INDEX + DATA
+# --------------------------------------------------
+
 faiss.write_index(index, os.path.join(FAISS_DIR, "knowledge.index"))
 
 with open(os.path.join(FAISS_DIR, "metadata.pkl"), "wb") as f:
@@ -49,4 +71,4 @@ with open(os.path.join(FAISS_DIR, "metadata.pkl"), "wb") as f:
 with open(os.path.join(FAISS_DIR, "chunks.pkl"), "wb") as f:
     pickle.dump(all_chunks, f)
 
-print("✅ FAISS index created successfully")
+print("✅ FAISS index rebuilt successfully using Groq embeddings!")

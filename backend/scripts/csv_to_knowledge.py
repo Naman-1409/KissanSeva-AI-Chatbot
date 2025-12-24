@@ -23,8 +23,14 @@ def process_all_csvs():
         knowledge_blocks = []
 
         for _, row in df.iterrows():
-            text = row_to_human_text(row.to_dict())
-            if len(text.strip()) > 50:
+            text = row_to_human_text(
+                row.to_dict(),
+                dataset_name=file.lower()
+            )
+
+            # ✅ COMPULSORY FIX FOR RAG
+            # Do NOT filter by length
+            if text and text.strip():
                 knowledge_blocks.append(text)
 
         output_file = file.replace(".csv", ".txt")
@@ -34,6 +40,7 @@ def process_all_csvs():
             f.write("\n\n---\n\n".join(knowledge_blocks))
 
         print(f"✅ Processed: {file}")
+
 
 if __name__ == "__main__":
     process_all_csvs()

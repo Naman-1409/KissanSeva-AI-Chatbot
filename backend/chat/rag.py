@@ -1,4 +1,9 @@
+from dotenv import load_dotenv
+load_dotenv()
+
 import os
+print("GROQ_API_KEY loaded:", bool(os.environ.get("GROQ_API_KEY")))
+
 import pickle
 import faiss
 
@@ -19,8 +24,8 @@ client = Groq(api_key=GROQ_API_KEY)
 
 GROQ_MODEL_NAME = "llama-3.3-70b-versatile"   # Best for RAG
 
-TOP_K = 6
-MIN_CHUNK_LENGTH = 40
+TOP_K = 10
+MIN_CHUNK_LENGTH = 10
 DEBUG = False   # Set True to debug
 
 

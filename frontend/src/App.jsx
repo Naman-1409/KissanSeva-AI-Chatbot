@@ -4,7 +4,7 @@
 // // ===================================================================================
 // // CONFIGURATION
 // // ===================================================================================
-// const API_BASE = "http://localhost:8000/api";
+// const API_BASE = "http://localhost:8000";
 // const HEALTH_CHECK_URL = "http://localhost:8000/health";
 
 // // ===================================================================================
@@ -126,57 +126,78 @@
 //   };
 
 //   const sendTextMessage = async (messageText = null) => {
-//     const message = messageText || textInput.trim();
-//     if (!message) return;
-//     addMessage(message, true, "text");
-//     setTextInput("");
-//     setIsLoading(true);
+//   const message = messageText || textInput.trim();
+//   if (!message) return;
 
-//     try {
-//       const response = await fetch(`${API_BASE}/chat`, {
-//         method: "POST",
-//         headers: { "Content-Type": "application/json" },
-//         body: JSON.stringify({ query: message, context }),
-//       });
-//       const data = await response.json();
-//       setIsLoading(false);
-//       if (response.ok) {
-//         addMessage(data.answer, false, "text");
-//       } else {
-//         addMessage("Sorry, I couldn't reach the server.", false, "error");
-//       }
-//     } catch (error) {
-//       setIsLoading(false);
-//       addMessage("Network error. Please check your internet connection.", false, "error");
+//   addMessage(message, true, "text");
+//   setTextInput("");
+//   setIsLoading(true);
+
+//   try {
+//     const response = await fetch(`${API_BASE}/chat`, {
+//       method: "POST",
+//       headers: {
+//         "Content-Type": "application/json",
+//       },
+//       body: JSON.stringify({
+//         question: message,
+//       }),
+//     });
+
+//     const data = await response.json();
+//     setIsLoading(false);
+
+//     if (response.ok) {
+//       addMessage(data.answer, false, "text");
+//     } else {
+//       addMessage("Server error. Please try again.", false, "error");
 //     }
-//   };
+//   } catch (error) {
+//     setIsLoading(false);
+//     addMessage("Backend not reachable. Is server running?", false, "error");
+//   }
+// };
+
 
 //   const uploadImage = async () => {
-//     const file = imageInputRef.current?.files[0];
-//     if (!file) return;
-//     addMessage(`फोटो की जांच हो रही है: ${file.name}`, true, "image");
-//     setIsLoading(true);
-//     const formData = new FormData();
-//     formData.append("image", file);
-//     formData.append("type", imageType);
-//     if (context.location) formData.append("location", context.location);
+//   const file = imageInputRef.current?.files[0];
+//   if (!file) return;
 
-//     try {
-//       const response = await fetch(`${API_BASE}/image-query`, { method: "POST", body: formData });
-//       const data = await response.json();
-//       setIsLoading(false);
-//       if (response.ok) {
-//         let result = `Analysis Result (${imageType.toUpperCase()}):\n\nPrediction: ${data.prediction}\nConfidence: ${(data.confidence * 100).toFixed(1)}%\n\n${data.answer}`;
-//         addMessage(result, false, "image");
-//       } else {
-//         addMessage(`Analysis failed: ${data.detail || "Unknown error"}`, false, "error");
-//       }
-//     } catch (error) {
-//       setIsLoading(false);
-//       addMessage("Failed to connect for image analysis.", false, "error");
+//   addMessage(`Analyzing image: ${file.name}`, true, "image");
+//   setIsLoading(true);
+
+//   const formData = new FormData();
+//   formData.append("image", file);
+//   formData.append("type", imageType); // disease | insect
+
+//   try {
+//     const response = await fetch(`${API_BASE}/image-query`, {
+//       method: "POST",
+//       body: formData,
+//     });
+
+//     const data = await response.json();
+//     setIsLoading(false);
+
+//     if (response.ok) {
+//       const result = `
+// Prediction: ${data.prediction}
+// Confidence: ${(data.confidence * 100).toFixed(2)}%
+
+// ${data.answer}
+//       `;
+//       addMessage(result, false, "image");
+//     } else {
+//       addMessage("Image analysis failed.", false, "error");
 //     }
-//     imageInputRef.current.value = "";
-//   };
+//   } catch (error) {
+//     setIsLoading(false);
+//     addMessage("Image service not reachable.", false, "error");
+//   }
+
+//   imageInputRef.current.value = "";
+// };
+
 
 //   const TabButton = ({ id, icon, label, isActive, onClick }) => (
 //     <button
@@ -544,7 +565,7 @@ const FarmerChatbot = () => {
     ]);
   };
 
-  const sendTextMessage = async (messageText = null) => {
+    const sendTextMessage = async (messageText = null) => {
   const message = messageText || textInput.trim();
   if (!message) return;
 
@@ -616,7 +637,6 @@ ${data.answer}
 
   imageInputRef.current.value = "";
 };
-
 
   const TabButton = ({ id, icon, label, isActive, onClick }) => (
     <button
@@ -852,7 +872,3 @@ export default function App() {
   const [inChat, setInChat] = useState(false);
   return inChat ? <FarmerChatbot /> : <LandingPage onEnterChat={() => setInChat(true)} />;
 }
-
-
-
-

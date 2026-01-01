@@ -194,7 +194,7 @@ const FarmerChatbot = () => {
   return (
     <div className="h-screen farmer-gradient flex flex-col overflow-hidden">
       {/* Friendly Header */}
-      <header className="sticky top-0 z-[100] bg-white border-b border-slate-200 px-4 py-3 flex flex-col md:flex-row items-center justify-between shadow-sm gap-4">
+      <header className="bg-white border-b border-slate-200 px-4 py-3 flex flex-col md:flex-row items-center justify-between shadow-sm gap-4 shrink-0">
         {/* Logo and Tagline */}
         <div className="flex items-center gap-3 min-w-fit">
           <span className="text-3xl">🚜</span>
@@ -255,7 +255,7 @@ const FarmerChatbot = () => {
 
       <main className="flex-1 flex flex-col lg:flex-row p-4 md:p-6 gap-6 min-h-0">
         {/* Simple Sidebar */}
-        <aside className="lg:w-72 flex flex-col gap-4">
+        <aside className="lg:w-80 flex flex-col gap-4 overflow-y-auto pr-2 custom-scrollbar">
           <div className="organic-card p-5 flex flex-col gap-4">
             <h3 className="text-sm font-bold text-green-800 border-b border-slate-100 pb-2 flex items-center gap-2">
               🌾 Farming Context

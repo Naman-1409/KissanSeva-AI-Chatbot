@@ -103,6 +103,7 @@ const FarmerChatbot = () => {
 
   useEffect(() => {
     checkConnection();
+    window.scrollTo(0, 0); // Reset scroll position when entering chat
   }, []);
 
   const checkConnection = async () => {
@@ -193,7 +194,7 @@ const FarmerChatbot = () => {
   return (
     <div className="h-screen farmer-gradient flex flex-col overflow-hidden">
       {/* Friendly Header */}
-      <header className="bg-white border-b border-slate-200 px-4 py-3 flex flex-col md:flex-row items-center justify-between shadow-sm gap-4">
+      <header className="sticky top-0 z-[100] bg-white border-b border-slate-200 px-4 py-3 flex flex-col md:flex-row items-center justify-between shadow-sm gap-4">
         {/* Logo and Tagline */}
         <div className="flex items-center gap-3 min-w-fit">
           <span className="text-3xl">🚜</span>

@@ -4,7 +4,7 @@ import "./App.css";
 // ===================================================================================
 // CONFIGURATION
 // ===================================================================================
-const API_BASE = "http://localhost:8000/api";
+const API_BASE = "http://localhost:8000";
 const HEALTH_CHECK_URL = "http://localhost:8000/health";
 
 // ===================================================================================
@@ -84,6 +84,9 @@ const FarmerChatbot = () => {
   const [isLoading, setIsLoading] = useState(false);
   const [imageType, setImageType] = useState("disease");
   const [connectionStatus, setConnectionStatus] = useState("checking");
+  const [isListening, setIsListening] = useState(false); // Voice state
+  const [language, setLanguage] = useState("en-US"); // Language state
+  const recognitionRef = useRef(null); // Voice ref
   const messagesEndRef = useRef(null);
   const chatContainerRef = useRef(null);
   const imageInputRef = useRef(null);
@@ -137,7 +140,7 @@ const FarmerChatbot = () => {
       const response = await fetch(`${API_BASE}/chat`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ query: message, context }),
+        body: JSON.stringify({ question: message, context }),
       });
       const data = await response.json();
       setIsLoading(false);
@@ -177,6 +180,53 @@ const FarmerChatbot = () => {
       addMessage("Failed to connect for image analysis.", false, "error");
     }
     imageInputRef.current.value = "";
+  };
+
+  const toggleListening = () => {
+    if (isListening) {
+      if (recognitionRef.current) recognitionRef.current.stop();
+      setIsListening(false);
+      return;
+    }
+
+    if (!("webkitSpeechRecognition" in window) && !("SpeechRecognition" in window)) {
+      addMessage("Browser does not support voice input. Try Chrome/Edge.", false, "error");
+      return;
+    }
+
+    const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+    const recognition = new SpeechRecognition();
+    recognitionRef.current = recognition;
+
+    recognition.continuous = false;
+    recognition.interimResults = true; // Enable live feedback
+    recognition.lang = language; // Dynamic language
+
+    recognition.onstart = () => setIsListening(true);
+    
+    recognition.onresult = (event) => {
+      const transcript = event.results[0][0].transcript;
+      setTextInput(transcript); // Show what is being spoken
+      
+      // Only send when the speech is FINAL
+      if (event.results[0].isFinal) {
+        sendTextMessage(transcript);
+        setIsListening(false);
+      }
+    };
+
+    recognition.onerror = (event) => {
+      console.error("Speech Error:", event.error);
+      setIsListening(false);
+      // Don't show error for "no-speech" as it's common
+      if (event.error !== "no-speech") {
+        addMessage("Could not hear you. Please try again.", false, "error");
+      }
+    };
+
+    recognition.onend = () => setIsListening(false);
+
+    recognition.start();
   };
 
   const TabButton = ({ id, icon, label, isActive, onClick }) => (
@@ -391,7 +441,33 @@ const FarmerChatbot = () => {
                 </div>
               )}
               {activeTab === "voice" && (
-                <button className="flex-1 btn-primary bg-blue-600 hover:bg-blue-700 py-4">Tap to Speak</button>
+                <div className="flex-1 flex gap-2">
+                  <select 
+                    value={language} 
+                    onChange={(e) => setLanguage(e.target.value)}
+                    className="p-2 border border-slate-300 rounded-lg bg-white text-sm font-bold text-slate-700"
+                  >
+                    <option value="en-US">English</option>
+                    <option value="hi-IN">Hindi (हिंदी)</option>
+                    <option value="gu-IN">Gujarati (ગુજરાતી)</option>
+                    <option value="mr-IN">Marathi (मराठी)</option>
+                    <option value="pa-IN">Punjabi (ਪੰਜਾਬੀ)</option>
+                    <option value="bn-IN">Bengali (বাংলা)</option>
+                    <option value="ta-IN">Tamil (தமிழ்)</option>
+                    <option value="te-IN">Telugu (తెలుగు)</option>
+                    <option value="kn-IN">Kannada (ಕನ್ನಡ)</option>
+                    <option value="ml-IN">Malayalam (മലയാളം)</option>
+                    <option value="ur-IN">Urdu (اردو)</option>
+                  </select>
+                  <button 
+                    onClick={toggleListening}
+                    className={`flex-1 btn-primary py-4 transition-all ${
+                      isListening ? "bg-red-500 hover:bg-red-600 animate-pulse" : "bg-blue-600 hover:bg-blue-700"
+                    }`}
+                  >
+                    {isListening ? "Listening... (Tap to Stop)" : "Tap to Speak"}
+                  </button>
+                </div>
               )}
               {activeTab === "predict" && (
                 <button 

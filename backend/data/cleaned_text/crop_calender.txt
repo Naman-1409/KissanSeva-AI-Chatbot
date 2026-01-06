@@ -8,7 +8,7 @@ Harvesting Period: Nov Dec
 State: Andhra Pradesh
 Crop Name: Rabi Paddy
 Sowing Period: Nov Dec
-Harvesting Period: May June
+Harvesting Period: May June 
 
 ---
 

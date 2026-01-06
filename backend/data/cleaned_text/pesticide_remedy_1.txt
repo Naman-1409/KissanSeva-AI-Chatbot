@@ -128,23 +128,6 @@ Precautions: Ensure good field sanitation.
 
 ---
 
-Crop: Sesame (Til)
-Disease Or Pest: Leaf Curl
-Agent: Viral (Begomovirus)
-Recommended Treatment: Neem oil 3% spray
-Dosage: 3%
-Duration: 10 days
-Precautions: Control whiteflies organically.
-
----
-
-Crop: Castor
-Disease Or Pest: Wilt
-Agent: Fungal (Fusarium oxysporum)
-Recommended Treatment: Trichoderma viride seed treatment @ 4g/kg
-Dosage: 4g/kg
-Duration: Before sowing
-Precautions: Improve soil drainage.
 
 ---
 

@@ -65,6 +65,203 @@ const LandingPage = ({ onEnterChat }) => {
 };
 
 // ===================================================================================
+// Weather Forecast Component
+// ===================================================================================
+const WeatherForecast = () => {
+  const [weatherData, setWeatherData] = useState(null);
+  const [location, setLocation] = useState({ lat: null, lon: null, name: "", error: null });
+  const [loading, setLoading] = useState(false);
+  const [searchQuery, setSearchQuery] = useState("");
+  const [searchResults, setSearchResults] = useState([]);
+  const [showResults, setShowResults] = useState(false);
+  const [isExpanded, setIsExpanded] = useState(false);
+  const [useCurrentLocation, setUseCurrentLocation] = useState(true);
+
+  // Fetch current GPS location on mount
+  useEffect(() => {
+    getCurrentLocation();
+  }, []);
+
+  const getCurrentLocation = () => {
+    if (!navigator.geolocation) {
+      setLocation({ lat: null, lon: null, name: "", error: "Geolocation not supported" });
+      return;
+    }
+
+    setLoading(true);
+    navigator.geolocation.getCurrentPosition(
+      (position) => {
+        const { latitude, longitude } = position.coords;
+        setLocation({ lat: latitude, lon: longitude, name: "Current Location", error: null });
+        fetchWeather(latitude, longitude);
+        setUseCurrentLocation(true);
+      },
+      (error) => {
+        setLocation({ lat: null, lon: null, name: "", error: "Location access denied" });
+        setLoading(false);
+      }
+    );
+  };
+
+  const fetchWeather = async (lat, lon) => {
+    try {
+      const response = await fetch(
+        `https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lon}&daily=weathercode,temperature_2m_max,temperature_2m_min&timezone=auto`
+      );
+      const data = await response.json();
+      setWeatherData(data.daily);
+      setLoading(false);
+    } catch (err) {
+      console.error("Weather fetch error:", err);
+      setLoading(false);
+    }
+  };
+
+  const searchPlaces = async (query) => {
+    if (query.length < 2) {
+      setSearchResults([]);
+      return;
+    }
+
+    try {
+      const response = await fetch(
+        `https://geocoding-api.open-meteo.com/v1/search?name=${encodeURIComponent(query)}&count=5`
+      );
+      const data = await response.json();
+      setSearchResults(data.results || []);
+      setShowResults(true);
+    } catch (err) {
+      console.error("Geocoding error:", err);
+      setSearchResults([]);
+    }
+  };
+
+  const handleSearchInput = (e) => {
+    const value = e.target.value;
+    setSearchQuery(value);
+    searchPlaces(value);
+  };
+
+  const selectPlace = (place) => {
+    setLocation({
+      lat: place.latitude,
+      lon: place.longitude,
+      name: `${place.name}${place.admin1 ? ', ' + place.admin1 : ''}${place.country ? ', ' + place.country : ''}`,
+      error: null
+    });
+    setSearchQuery("");
+    setShowResults(false);
+    setSearchResults([]);
+    setLoading(true);
+    fetchWeather(place.latitude, place.longitude);
+    setUseCurrentLocation(false);
+  };
+
+  const getWeatherIcon = (code) => {
+    if (code === 0) return "☀️";
+    if (code <= 3) return "🌤️";
+    if (code <= 48) return "🌫️";
+    if (code <= 67) return "🌦️";
+    if (code <= 77) return "🌨️";
+    if (code <= 82) return "🌧️";
+    if (code <= 99) return "⛈️";
+    return "🌡️";
+  };
+
+  const getDayName = (dateStr) => {
+    const date = new Date(dateStr);
+    return date.toLocaleDateString("en-US", { weekday: "short" });
+  };
+
+  if (loading) return <div className="text-center p-4 text-slate-500">Loading forecast...</div>;
+  if (location.error) return <div className="text-center p-4 text-red-500">❌ {location.error}</div>;
+
+  const displayDays = isExpanded ? weatherData?.time.length : 1;
+
+  return (
+    <div className="space-y-4">
+      <h3 className="text-sm font-bold text-green-800 border-b border-slate-100 pb-2 flex items-center gap-2">
+        🌦️ Weather Forecast
+      </h3>
+      
+      {/* Search and Location Controls */}
+      <div className="space-y-2">
+        <div className="flex gap-2 relative">
+          <input
+            type="text"
+            value={searchQuery}
+            onChange={handleSearchInput}
+            onFocus={() => searchResults.length > 0 && setShowResults(true)}
+            placeholder="Search location..."
+            className="flex-1 input-field py-2 text-sm"
+          />
+          <button
+            onClick={getCurrentLocation}
+            className={`p-2 rounded-lg transition-all ${
+              useCurrentLocation 
+                ? 'bg-green-100 text-green-700 border-2 border-green-500' 
+                : 'bg-slate-100 text-slate-600 border border-slate-200 hover:bg-slate-200'
+            }`}
+            title="Use current location"
+          >
+            📍
+          </button>
+          
+          {/* Search Results Dropdown */}
+          {showResults && searchResults.length > 0 && (
+            <div className="absolute top-full left-0 right-12 mt-1 bg-white border border-slate-200 rounded-lg shadow-lg z-50 max-h-48 overflow-y-auto">
+              {searchResults.map((place, i) => (
+                <button
+                  key={i}
+                  onClick={() => selectPlace(place)}
+                  className="w-full text-left px-3 py-2 hover:bg-green-50 text-sm border-b border-slate-100 last:border-0"
+                >
+                  <div className="font-bold text-slate-700">{place.name}</div>
+                  <div className="text-xs text-slate-400">
+                    {place.admin1 && `${place.admin1}, `}{place.country}
+                  </div>
+                </button>
+              ))}
+            </div>
+          )}
+        </div>
+        
+        {/* Location Name */}
+        {location.name && (
+          <p className="text-xs text-slate-500 italic">📍 {location.name}</p>
+        )}
+      </div>
+
+      {/* Weather Forecast */}
+      <div className="flex flex-col gap-2">
+        {weatherData && weatherData.time.slice(0, displayDays).map((time, i) => (
+          <div key={time} className="flex items-center justify-between p-3 rounded-xl bg-slate-50 border border-slate-100 hover:bg-white transition-colors">
+            <div className="flex items-center gap-3">
+              <span className="text-sm font-bold text-slate-600 w-10">{i === 0 ? "Today" : getDayName(time)}</span>
+              <span className="text-2xl">{getWeatherIcon(weatherData.weathercode[i])}</span>
+            </div>
+            <div className="flex gap-4">
+              <span className="text-sm font-bold text-red-600">{Math.round(weatherData.temperature_2m_max[i])}°</span>
+              <span className="text-sm font-bold text-blue-600">{Math.round(weatherData.temperature_2m_min[i])}°</span>
+            </div>
+          </div>
+        ))}
+      </div>
+
+      {/* More/Less Button */}
+      {weatherData && weatherData.time.length > 1 && (
+        <button
+          onClick={() => setIsExpanded(!isExpanded)}
+          className="w-full py-2 text-sm font-bold text-green-700 hover:bg-green-50 rounded-lg transition-all border border-green-200"
+        >
+          {isExpanded ? "Show Less ▲" : `More (${weatherData.time.length - 1} days) ▼`}
+        </button>
+      )}
+    </div>
+  );
+};
+
+// ===================================================================================
 // Farmer Chatbot Component
 // ===================================================================================
 
@@ -275,22 +472,6 @@ const FarmerChatbot = () => {
           ))}
         </nav>
 
-        {/* Context Monitor - Compact */}
-        <div className="hidden lg:flex items-center gap-6 px-6 border-x border-slate-100">
-          {[
-            { label: "CROP", value: context.crop, color: "text-green-700" },
-            { label: "AREA", value: context.location, color: "text-blue-700" },
-            { label: "SEASON", value: context.season, color: "text-purple-700" },
-            { label: "N-P-K", value: `${predictionFeatures.N}-${predictionFeatures.P}-${predictionFeatures.K}`, color: "text-orange-700" },
-          ].map((item, i) => (
-            <div key={i} className="flex flex-col">
-              <span className="text-[7px] uppercase tracking-widest text-slate-400 font-bold">{item.label}</span>
-              <span className={`text-[10px] font-black uppercase tracking-widest ${item.color} truncate max-w-[80px]`}>
-                {item.value || "---"}
-              </span>
-            </div>
-          ))}
-        </div>
         
         {/* Status */}
         <div className="flex items-center gap-3 min-w-fit">
@@ -306,66 +487,8 @@ const FarmerChatbot = () => {
       <main className="flex-1 flex flex-col lg:flex-row p-4 md:p-6 gap-6 min-h-0">
         {/* Simple Sidebar */}
         <aside className="lg:w-80 flex flex-col gap-4 overflow-y-auto pr-2 custom-scrollbar">
-          <div className="organic-card p-5 flex flex-col gap-4">
-            <h3 className="text-sm font-bold text-green-800 border-b border-slate-100 pb-2 flex items-center gap-2">
-              🌾 Farming Context
-            </h3>
-            <div className="space-y-3">
-              {[
-                { label: "Crop", key: "crop", state: context, setter: setContext },
-                { label: "Location", key: "location", state: context, setter: setContext },
-                { label: "Season", key: "season", state: context, setter: setContext }
-              ].map(item => (
-                <div key={item.key}>
-                   <label className="text-[10px] text-slate-400 font-bold uppercase tracking-wider mb-1 block">{item.label}</label>
-                   <input
-                    type="text"
-                    value={item.state[item.key]}
-                    onChange={(e) => item.setter(p => ({ ...p, [item.key]: e.target.value }))}
-                    className="w-full input-field py-2 text-sm"
-                  />
-                </div>
-              ))}
-            </div>
-
-            <h3 className="text-sm font-bold text-orange-800 border-b border-slate-100 pb-2 mt-4 flex items-center gap-2">
-              🧪 Soil & Environment
-            </h3>
-            <div className="grid grid-cols-3 gap-2">
-              {[
-                { label: "N", key: "N" },
-                { label: "P", key: "P" },
-                { label: "K", key: "K" }
-              ].map(item => (
-                <div key={item.key}>
-                   <label className="text-[10px] text-slate-400 font-bold uppercase tracking-wider mb-1 block text-center">{item.label}</label>
-                   <input
-                    type="number"
-                    value={predictionFeatures[item.key]}
-                    onChange={(e) => setPredictionFeatures(p => ({ ...p, [item.key]: parseFloat(e.target.value) || 0 }))}
-                    className="w-full input-field py-2 text-center text-sm"
-                  />
-                </div>
-              ))}
-            </div>
-            <div className="grid grid-cols-2 gap-3 mt-2">
-              {[
-                { label: "Temp (°C)", key: "temperature" },
-                { label: "Humidity (%)", key: "humidity" },
-                { label: "Soil pH", key: "ph" },
-                { label: "Rain (mm)", key: "rainfall" }
-              ].map(item => (
-                <div key={item.key}>
-                   <label className="text-[10px] text-slate-400 font-bold uppercase tracking-wider mb-1 block">{item.label}</label>
-                   <input
-                    type="number"
-                    value={predictionFeatures[item.key]}
-                    onChange={(e) => setPredictionFeatures(p => ({ ...p, [item.key]: parseFloat(e.target.value) || 0 }))}
-                    className="w-full input-field py-2 text-sm"
-                  />
-                </div>
-              ))}
-            </div>
+          <div className="organic-card p-5">
+            <WeatherForecast />
           </div>
 
           <div className="organic-card p-5 hidden lg:block">

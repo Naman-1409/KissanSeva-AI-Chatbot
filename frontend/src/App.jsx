@@ -567,7 +567,7 @@ const FarmerChatbot = () => {
   const uploadImage = async () => {
     const file = imageInputRef.current?.files[0];
     if (!file) return;
-    addMessage(`फोटो की जांच हो रही है: ${file.name}`, true, "image");
+    addMessage(`Analyzing image: ${file.name}`, true, "image");
     setIsLoading(true);
     const formData = new FormData();
     formData.append("image", file);

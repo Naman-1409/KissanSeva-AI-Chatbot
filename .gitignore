@@ -10,3 +10,4 @@ venv/
 .venv/
 .env
 # Generated training artifacts
+venv311/

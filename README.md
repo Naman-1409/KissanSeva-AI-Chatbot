@@ -1,29 +1,71 @@
-🌾 KrishiGPT - AI Chatbot for Farmers
+🌾 KrishiGPT – AI Chatbot for Farmers
 
-KrishiGPT is an AI-powered agricultural assistant. This assists farmers in obtaining correct answers on all crop-related, diseases, pests, fertilizers, pesticides, weather practices, and farming techniques from data.
+KrishiGPT is an AI-powered agricultural assistant designed to help farmers get accurate, reliable, and easy-to-understand answers for all agriculture-related queries.
 
-It is designed to reply purely based on curated datasets to ensure reliability and relevance to the domain.
+It assists farmers with crop management, diseases, pests, fertilizers, pesticides, farming techniques, and now also provides:
+
+Multilingual voice-based interaction
+
+7-day weather forecasts
+
+Live mandi prices of crops (state-wise & market-wise)
+
+KrishiGPT responds purely based on curated and verified datasets, ensuring trust, relevance, and correctness.
 
 🚀 Features
 
 🤖 AI-powered Question Answering
+Get precise, agriculture-specific answers backed by verified datasets.
 
 🌱 Crop, Pest & Disease Guidance
+Complete guidance on crop health, pests, diseases, and preventive practices.
 
 🧪 Pesticide & Treatment Recommendations
+Data-driven recommendations for safe and effective treatments.
 
-🖼️ Image-based Crop/Disease Recognition
+🖼️ Image-based Crop & Disease Recognition
+Upload crop images to identify diseases and issues visually.
 
-🌍 Multilingual Support
+🗣️ Multilingual Voice Support (New)
+Farmers can ask questions and receive answers via voice in multiple regional languages.
+
+🌦️ 7-Day Weather Forecast (New)
+Accurate 7-day weather insights to plan sowing, irrigation, and harvesting efficiently.
+
+💰 Live Mandi Prices (State-wise & Market-wise) (New)
+View real-time mandi prices of crops across different states and markets, including:
+
+Average price per quintal
+
+Price trends (increase/decrease)
+
+Quantity arrival information
+
+🌍 Multilingual Text Support
+Supports multiple Indian languages for better accessibility and inclusivity.
 
 📊 Structured Dataset-driven Responses
+Ensures reliable outputs by strictly answering from curated datasets.
 
 ⚛️ Modern React Frontend
+Clean, responsive, and farmer-friendly user interface.
 
 🔌 Scalable Backend API
+Robust and modular backend for future expansion.
 
 🧠 ML & NLP Integration
+Advanced machine learning and NLP for intelligent understanding and responses.
 
 🎯 Project Goal
 
-To empower farmers with accurate, fast, and easy-to-understand agricultural knowledge, using AI while ensuring trustworthiness by relying only on verified datasets.
+To empower farmers with trusted, fast, and accessible agricultural intelligence by combining:
+
+Verified agricultural datasets
+
+Multilingual text & voice interaction
+
+Live mandi price insights
+
+Weather forecasting
+
+This enables smarter decision-making, better crop planning, and improved market awareness for farmers.

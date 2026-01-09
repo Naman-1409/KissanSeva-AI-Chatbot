@@ -1,6 +1,6 @@
-🌾 KrishiGPT – AI Chatbot for Farmers
+🌾 KissanSeva AI – AI Chatbot for Farmers
 
-KrishiGPT is an AI-powered agricultural assistant designed to help farmers get accurate, reliable, and easy-to-understand answers for all agriculture-related queries.
+KissanSeva AI is an AI-powered agricultural assistant designed to help farmers get accurate, reliable, and easy-to-understand answers for all agriculture-related queries.
 
 It assists farmers with crop management, diseases, pests, fertilizers, pesticides, farming techniques, and now also provides:
 
@@ -10,7 +10,7 @@ Multilingual voice-based interaction
 
 Live mandi prices of crops (state-wise & market-wise)
 
-KrishiGPT responds purely based on curated and verified datasets, ensuring trust, relevance, and correctness.
+KissanSeva AI responds purely based on curated and verified datasets, ensuring trust, relevance, and correctness.
 
 🚀 Features
 

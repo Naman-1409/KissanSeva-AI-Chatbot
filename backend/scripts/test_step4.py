@@ -4,7 +4,7 @@ from backend.chat.rag import answer_question
 def run_tests():
     test_questions = [
         # ---------------- PEST & PESTICIDE DATA ----------------
-        # "Which pesticide is used for aphids?",
+        "Which pesticide is used for aphids?",
         "What is the sowing period for Rabi wheat in Madhya Pradesh?"
         # "Which insecticide controls bean fly and aphids?",
         # "Which insecticides are effective against aphids and whiteflies?",
@@ -15,12 +15,12 @@ def run_tests():
         # "Which pesticide is used to control jute aphid?",
 
         # ---------------- FARMING PRACTICES --------------------
-        # "What is crop rotation?",
+        "What is crop rotation?",
         # "Why is crop rotation important in farming?",
-        # "What are the different methods of irrigation?",
+        "What are the different methods of irrigation?",
 
         # ---------------- FERTILIZER / YIELD -------------------
-        # "What type of fertilizers are used in farming?",
+        "What type of fertilizers are used in farming?",
         # "Why are fertilizers used in farming?",
 
         # ---------------- OUT OF SCOPE -------------------------

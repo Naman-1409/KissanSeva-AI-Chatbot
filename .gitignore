@@ -10,3 +10,31 @@ venv/
 .venv/
 .env
 # Generated training artifacts
+venv311/
+build/
+dist/
+*.egg-info/
+
+# Mypy / pytest
+.mypy_cache/
+.pytest_cache/
+
+# IPython
+.ipynb_checkpoints
+
+# Node / frontend
+node_modules/
+
+# Logs
+*.log
+
+# VS Code
+.vscode/
+
+# Tensor/ML
+*.pt
+*.pth
+
+# Ignore uploads and vector stores
+uploads/
+vector_store/

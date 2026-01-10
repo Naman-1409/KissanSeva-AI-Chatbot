@@ -37,7 +37,7 @@ const LandingPage = ({ onEnterChat }) => {
         <div className="w-full grid grid-cols-1 md:grid-cols-3 gap-6 mb-12 animate-slideUp" style={{ animationDelay: "0.3s" }}>
           {[
             { icon: "🌾", title: "Crop Information", desc: "Select the right crops and increase your yield." },
-            { icon: "🔍", title: "Disease Identification", desc: "Send photos to identify and treat crop diseases." },
+            { icon: "🔍", title: "Image Identification", desc: "Send photos to identify and treat crop diseases." },
             { icon: "🗣️", title: "Voice Interaction", desc: "Get information by speaking in your own language." }
           ].map((feature, i) => (
             <div key={i} className="organic-card p-6 text-center">

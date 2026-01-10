@@ -275,12 +275,16 @@ const MandiPrices = () => {
   // Popular commodities list
   const commodities = [
     "Rice", "Wheat", "Maize", "Cotton", "Soybean", 
-    "Groundnut", "Sugarcane", "Potato", "Onion", "Tomato"
+    "Groundnut", "Sugarcane", "Potato", "Onion", "Tomato",
+    "Cabbage", "Cauliflower", "Carrot", "Beans", "Peas",
+    "Ladyfinger", "Brinjal", "Chilli", "Garlic", "Ginger"
   ];
 
   const states = [
     "All", "Punjab", "Haryana", "Uttar Pradesh", "Madhya Pradesh", 
-    "Maharashtra", "Karnataka", "Tamil Nadu", "West Bengal", "Bihar"
+    "Maharashtra", "Karnataka", "Tamil Nadu", "West Bengal", "Bihar",
+    "Rajasthan", "Gujarat", "Andhra Pradesh", "Telangana", "Kerala",
+    "Odisha", "Assam", "Chhattisgarh", "Jharkhand", "Uttarakhand"
   ];
 
   useEffect(() => {
@@ -315,7 +319,10 @@ const MandiPrices = () => {
     const basePrices = {
       "Rice": 2100, "Wheat": 2125, "Maize": 1850, "Cotton": 6500,
       "Soybean": 4200, "Groundnut": 5500, "Sugarcane": 320,
-      "Potato": 1200, "Onion": 1800, "Tomato": 2000
+      "Potato": 1200, "Onion": 1800, "Tomato": 2000,
+      "Cabbage": 800, "Cauliflower": 1400, "Carrot": 1100, "Beans": 2500,
+      "Peas": 3000, "Ladyfinger": 1800, "Brinjal": 1300, "Chilli": 8000,
+      "Garlic": 5000, "Ginger": 4500
     };
 
     const markets = state === "All" 
@@ -324,7 +331,19 @@ const MandiPrices = () => {
         ? ["Ludhiana", "Amritsar", "Jalandhar", "Patiala"]
         : state === "Maharashtra"
           ? ["Mumbai", "Pune", "Nashik", "Nagpur"]
-          : [state + " Central", state + " North", state + " South"];
+          : state === "Gujarat"
+            ? ["Ahmedabad", "Rajkot", "Surat", "Vadodara"]
+            : state === "Rajasthan"
+              ? ["Jaipur", "Jodhpur", "Kota", "Udaipur"]
+              : state === "Karnataka"
+                ? ["Bangalore", "Mysore", "Hubli", "Belgaum"]
+                : state === "Tamil Nadu"
+                  ? ["Chennai", "Coimbatore", "Madurai", "Salem"]
+                  : state === "Andhra Pradesh"
+                    ? ["Vijayawada", "Visakhapatnam", "Guntur", "Tirupati"]
+                    : state === "Telangana"
+                      ? ["Hyderabad", "Warangal", "Nizamabad", "Karimnagar"]
+                      : [state + " Central", state + " North", state + " South"];
 
     const basePrice = basePrices[commodity] || 2000;
     
@@ -494,7 +513,8 @@ const FarmerChatbot = () => {
   const [imageType, setImageType] = useState("disease");
   const [connectionStatus, setConnectionStatus] = useState("checking");
   const [isListening, setIsListening] = useState(false); // Voice state
-  const [language, setLanguage] = useState("en-US"); // Language state
+  const [language, setLanguage] = useState("en-US"); // Language state for voice
+  const [imageLanguage, setImageLanguage] = useState("en"); // Language state for image
   const recognitionRef = useRef(null); // Voice ref
   const messagesEndRef = useRef(null);
   const chatContainerRef = useRef(null);
@@ -572,6 +592,7 @@ const FarmerChatbot = () => {
     const formData = new FormData();
     formData.append("image", file);
     formData.append("type", imageType);
+    formData.append("language", imageLanguage); // Send selected language
     if (context.location) formData.append("location", context.location);
 
     try {
@@ -758,6 +779,23 @@ const FarmerChatbot = () => {
                     </button>
                   </div>
                   <div className="flex gap-2">
+                    <select 
+                      value={imageLanguage} 
+                      onChange={(e) => setImageLanguage(e.target.value)}
+                      className="p-2 border border-slate-300 rounded-lg bg-white text-sm font-bold text-slate-700"
+                    >
+                      <option value="en">English</option>
+                      <option value="hi">Hindi (हिंदी)</option>
+                      <option value="gu">Gujarati (ગુજરાતી)</option>
+                      <option value="mr">Marathi (मराठी)</option>
+                      <option value="pa">Punjabi (ਪੰਜਾਬੀ)</option>
+                      <option value="bn">Bengali (বাংলা)</option>
+                      <option value="ta">Tamil (தமிழ்)</option>
+                      <option value="te">Telugu (తెలుగు)</option>
+                      <option value="kn">Kannada (ಕನ್ನಡ)</option>
+                      <option value="ml">Malayalam (മലയാളം)</option>
+                      <option value="ur">Urdu (اردو)</option>
+                    </select>
                     <input ref={imageInputRef} type="file" accept="image/*" className="hidden" onChange={uploadImage} />
                     <button onClick={() => imageInputRef.current.click()} className="flex-1 btn-primary bg-orange-600 hover:bg-orange-700">Select {imageType === "disease" ? "Disease" : "Insect"} Photo</button>
                   </div>

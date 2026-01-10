@@ -209,19 +209,43 @@ async def image_query(
         label, confidence = predict_image(image_path, INSECT_MODEL, INSECT_CLASSES)
         query = f"What damage does {label} cause and how to control it?"
 
-    detected_lang = language if language else detect_language(query)
+    detected_lang = language if language else "en"
     
     try:
         answer = answer_question_multilingual(query)
+        
+        # Translate the answer to the selected language if not English
+        if detected_lang and detected_lang.lower() != "en":
+            from backend.chat.translate import translate_text
+            answer = translate_text(answer, detected_lang)
+        
         success = True
     except KnowledgeNotFoundError:
-        answer = "I don’t have this information."
+        answer = "I don't have this information."
+        
+        # Translate error message too
+        if detected_lang and detected_lang.lower() != "en":
+            from backend.chat.translate import translate_text
+            answer = translate_text(answer, detected_lang)
+        
         success = True
     except TokenLimitExceededError:
         answer = "Your token limit has been exceeded. Please try again later."
+        
+        # Translate error message
+        if detected_lang and detected_lang.lower() != "en":
+            from backend.chat.translate import translate_text
+            answer = translate_text(answer, detected_lang)
+        
         success = False
     except LLMServiceError:
         answer = "The service is temporarily unavailable. Please try again later."
+        
+        # Translate error message
+        if detected_lang and detected_lang.lower() != "en":
+            from backend.chat.translate import translate_text
+            answer = translate_text(answer, detected_lang)
+        
         success = False
 
 
@@ -234,6 +258,7 @@ async def image_query(
         "processing_time_ms": int((time.time() - start_time) * 1000),
         "success": True
     }
+
 
 # ---------------------------------------------
 # Startup Event (UNCHANGED)

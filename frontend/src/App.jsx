@@ -4,8 +4,9 @@ import "./App.css";
 // ===================================================================================
 // CONFIGURATION
 // ===================================================================================
-const API_BASE = "http://localhost:8000";
-const HEALTH_CHECK_URL = "http://localhost:8000/health";
+// Use environment variable if available, otherwise fallback to localhost (for dev)
+const API_BASE = import.meta.env.VITE_API_URL || "http://localhost:8000";
+const HEALTH_CHECK_URL = `${API_BASE}/health`;
 
 // ===================================================================================
 // Landing Page Component (Farmer-Centric Update)
@@ -183,7 +184,7 @@ const WeatherForecast = () => {
       <h3 className="text-sm font-bold text-green-800 border-b border-slate-100 pb-2 flex items-center gap-2">
         🌦️ Weather Forecast
       </h3>
-      
+
       {/* Search and Location Controls */}
       <div className="space-y-2">
         <div className="flex gap-2 relative">
@@ -197,16 +198,15 @@ const WeatherForecast = () => {
           />
           <button
             onClick={getCurrentLocation}
-            className={`p-2 rounded-lg transition-all ${
-              useCurrentLocation 
-                ? 'bg-green-100 text-green-700 border-2 border-green-500' 
+            className={`p-2 rounded-lg transition-all ${useCurrentLocation
+                ? 'bg-green-100 text-green-700 border-2 border-green-500'
                 : 'bg-slate-100 text-slate-600 border border-slate-200 hover:bg-slate-200'
-            }`}
+              }`}
             title="Use current location"
           >
             📍
           </button>
-          
+
           {/* Search Results Dropdown */}
           {showResults && searchResults.length > 0 && (
             <div className="absolute top-full left-0 right-12 mt-1 bg-white border border-slate-200 rounded-lg shadow-lg z-50 max-h-48 overflow-y-auto">
@@ -225,7 +225,7 @@ const WeatherForecast = () => {
             </div>
           )}
         </div>
-        
+
         {/* Location Name */}
         {location.name && (
           <p className="text-xs text-slate-500 italic">📍 {location.name}</p>
@@ -271,17 +271,17 @@ const MandiPrices = () => {
   const [selectedCommodity, setSelectedCommodity] = useState("Rice");
   const [selectedState, setSelectedState] = useState("All");
   const [isExpanded, setIsExpanded] = useState(false);
-  
+
   // Popular commodities list
   const commodities = [
-    "Rice", "Wheat", "Maize", "Cotton", "Soybean", 
+    "Rice", "Wheat", "Maize", "Cotton", "Soybean",
     "Groundnut", "Sugarcane", "Potato", "Onion", "Tomato",
     "Cabbage", "Cauliflower", "Carrot", "Beans", "Peas",
     "Ladyfinger", "Brinjal", "Chilli", "Garlic", "Ginger"
   ];
 
   const states = [
-    "All", "Punjab", "Haryana", "Uttar Pradesh", "Madhya Pradesh", 
+    "All", "Punjab", "Haryana", "Uttar Pradesh", "Madhya Pradesh",
     "Maharashtra", "Karnataka", "Tamil Nadu", "West Bengal", "Bihar",
     "Rajasthan", "Gujarat", "Andhra Pradesh", "Telangana", "Kerala",
     "Odisha", "Assam", "Chhattisgarh", "Jharkhand", "Uttarakhand"
@@ -294,15 +294,15 @@ const MandiPrices = () => {
   const fetchMandiPrices = async () => {
     setLoading(true);
     setError(null);
-    
+
     try {
       // Using data.gov.in API endpoint for agricultural commodity prices
       // Note: In production, you would use the actual API with proper authentication
       // For now, we'll use mock data that simulates the real API response
-      
+
       // Simulate API call delay
       await new Promise(resolve => setTimeout(resolve, 800));
-      
+
       // Generate realistic mock data based on actual mandi price patterns
       const mockData = generateMockMandiData(selectedCommodity, selectedState);
       setPricesData(mockData);
@@ -325,9 +325,9 @@ const MandiPrices = () => {
       "Garlic": 5000, "Ginger": 4500
     };
 
-    const markets = state === "All" 
+    const markets = state === "All"
       ? ["Delhi", "Mumbai", "Bangalore", "Kolkata", "Chennai"]
-      : state === "Punjab" 
+      : state === "Punjab"
         ? ["Ludhiana", "Amritsar", "Jalandhar", "Patiala"]
         : state === "Maharashtra"
           ? ["Mumbai", "Pune", "Nashik", "Nagpur"]
@@ -346,16 +346,16 @@ const MandiPrices = () => {
                       : [state + " Central", state + " North", state + " South"];
 
     const basePrice = basePrices[commodity] || 2000;
-    
+
     return markets.slice(0, 5).map((market, i) => {
       const variation = (Math.random() - 0.5) * 0.15; // ±15% variation
       const modalPrice = Math.round(basePrice * (1 + variation));
       const minPrice = Math.round(modalPrice * 0.92);
       const maxPrice = Math.round(modalPrice * 1.08);
-      
+
       // Calculate trend (price change over last week)
       const trendPercent = (Math.random() - 0.45) * 10; // Slight bias toward positive
-      
+
       return {
         market,
         commodity,
@@ -435,7 +435,7 @@ const MandiPrices = () => {
                   </span>
                 </div>
               </div>
-              
+
               <div className="flex items-center justify-between">
                 <div>
                   <div className="text-lg font-black text-green-700">
@@ -446,7 +446,7 @@ const MandiPrices = () => {
                   </div>
                 </div>
                 <div className="text-[9px] text-slate-400 text-right">
-                  per quintal<br/>
+                  per quintal<br />
                   (100 kg)
                 </div>
               </div>
@@ -633,11 +633,11 @@ const FarmerChatbot = () => {
     recognition.lang = language; // Dynamic language
 
     recognition.onstart = () => setIsListening(true);
-    
+
     recognition.onresult = (event) => {
       const transcript = event.results[0][0].transcript;
       setTextInput(transcript); // Show what is being spoken
-      
+
       // Only send when the speech is FINAL
       if (event.results[0].isFinal) {
         sendTextMessage(transcript);
@@ -662,9 +662,8 @@ const FarmerChatbot = () => {
   const TabButton = ({ id, icon, label, isActive, onClick }) => (
     <button
       onClick={onClick}
-      className={`flex-1 flex items-center justify-center gap-2 py-3 px-4 rounded-xl font-bold transition-all ${
-        isActive ? "tab-active shadow-sm" : "tab-inactive hover:bg-white/50"
-      }`}
+      className={`flex-1 flex items-center justify-center gap-2 py-3 px-4 rounded-xl font-bold transition-all ${isActive ? "tab-active shadow-sm" : "tab-inactive hover:bg-white/50"
+        }`}
     >
       <span className="text-2xl">{icon}</span>
       <span className="text-sm">{label}</span>
@@ -694,9 +693,8 @@ const FarmerChatbot = () => {
             <button
               key={tab.id}
               onClick={() => setActiveTab(tab.id)}
-              className={`flex items-center gap-2 py-2 px-3 rounded-lg font-bold transition-all text-xs ${
-                activeTab === tab.id ? "tab-active shadow-sm" : "tab-inactive hover:bg-white/50"
-              }`}
+              className={`flex items-center gap-2 py-2 px-3 rounded-lg font-bold transition-all text-xs ${activeTab === tab.id ? "tab-active shadow-sm" : "tab-inactive hover:bg-white/50"
+                }`}
             >
               <span>{tab.icon}</span>
               <span className="hidden sm:inline uppercase tracking-widest">{tab.label}</span>
@@ -704,14 +702,14 @@ const FarmerChatbot = () => {
           ))}
         </nav>
 
-        
+
         {/* Status */}
         <div className="flex items-center gap-3 min-w-fit">
           <div className={`h-2 w-2 rounded-full ${connectionStatus === "connected" ? "bg-green-500 animate-pulse" : "bg-red-500"}`}></div>
           <div className="bg-green-50 px-3 py-1 rounded-lg border border-green-100">
-             <span className="text-[10px] font-bold text-green-800 uppercase tracking-widest">
-               {connectionStatus === "connected" ? "ACTIVE" : "OFFLINE"}
-             </span>
+            <span className="text-[10px] font-bold text-green-800 uppercase tracking-widest">
+              {connectionStatus === "connected" ? "ACTIVE" : "OFFLINE"}
+            </span>
           </div>
         </div>
       </header>
@@ -765,13 +763,13 @@ const FarmerChatbot = () => {
               {activeTab === "image" && (
                 <div className="flex-1 flex flex-col gap-4">
                   <div className="flex gap-2 p-1 bg-slate-100 rounded-xl w-fit self-center">
-                    <button 
+                    <button
                       onClick={() => setImageType("disease")}
                       className={`px-6 py-2 rounded-lg text-xs font-bold transition-all ${imageType === "disease" ? "bg-white text-green-800 shadow-sm" : "text-slate-500 hover:text-slate-700"}`}
                     >
                       🦠 DISEASE
                     </button>
-                    <button 
+                    <button
                       onClick={() => setImageType("insect")}
                       className={`px-6 py-2 rounded-lg text-xs font-bold transition-all ${imageType === "insect" ? "bg-white text-green-800 shadow-sm" : "text-slate-500 hover:text-slate-700"}`}
                     >
@@ -779,8 +777,8 @@ const FarmerChatbot = () => {
                     </button>
                   </div>
                   <div className="flex gap-2">
-                    <select 
-                      value={imageLanguage} 
+                    <select
+                      value={imageLanguage}
                       onChange={(e) => setImageLanguage(e.target.value)}
                       className="p-2 border border-slate-300 rounded-lg bg-white text-sm font-bold text-slate-700"
                     >
@@ -803,8 +801,8 @@ const FarmerChatbot = () => {
               )}
               {activeTab === "voice" && (
                 <div className="flex-1 flex gap-2">
-                  <select 
-                    value={language} 
+                  <select
+                    value={language}
                     onChange={(e) => setLanguage(e.target.value)}
                     className="p-2 border border-slate-300 rounded-lg bg-white text-sm font-bold text-slate-700"
                   >
@@ -820,11 +818,10 @@ const FarmerChatbot = () => {
                     <option value="ml-IN">Malayalam (മലയാളം)</option>
                     <option value="ur-IN">Urdu (اردو)</option>
                   </select>
-                  <button 
+                  <button
                     onClick={toggleListening}
-                    className={`flex-1 btn-primary py-4 transition-all ${
-                      isListening ? "bg-red-500 hover:bg-red-600 animate-pulse" : "bg-blue-600 hover:bg-blue-700"
-                    }`}
+                    className={`flex-1 btn-primary py-4 transition-all ${isListening ? "bg-red-500 hover:bg-red-600 animate-pulse" : "bg-blue-600 hover:bg-blue-700"
+                      }`}
                   >
                     {isListening ? "Listening... (Tap to Stop)" : "Tap to Speak"}
                   </button>

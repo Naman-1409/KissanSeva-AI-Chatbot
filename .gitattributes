@@ -1,3 +1,5 @@
 backend/vector_store/faiss_index/knowledge.index filter=lfs diff=lfs merge=lfs -text
 backend/vector_store/faiss_index/chunks.pkl filter=lfs diff=lfs merge=lfs -text
 backend/data/updated_cleaned_text/crop_production_normalized.txt filter=lfs diff=lfs merge=lfs -text
+backend/data/**/* filter=lfs diff=lfs merge=lfs -text
+backend/vector_store/**/* filter=lfs diff=lfs merge=lfs -text

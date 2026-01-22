@@ -35,8 +35,5 @@ node_modules/
 *.pt
 *.pth
 
-# Ignore uploads and vector stores
-uploads/
-vector_store/
-backend/data/
+
 

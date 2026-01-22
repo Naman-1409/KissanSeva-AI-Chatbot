@@ -4,15 +4,18 @@ import "./App.css";
 // ===================================================================================
 // CONFIGURATION
 // ===================================================================================
-const API_BASE = "http://localhost:8000";
-const HEALTH_CHECK_URL = "http://localhost:8000/health";
+// ===================================================================================
+// CONFIGURATION
+// ===================================================================================
+const API_BASE = import.meta.env.VITE_API_BASE_URL || "http://localhost:8000";
+const HEALTH_CHECK_URL = `${API_BASE}/health`;
 
 // ===================================================================================
 // Landing Page Component (Farmer-Centric Update)
 // ===================================================================================
 const LandingPage = ({ onEnterChat }) => {
   return (
-    <div className="min-h-screen farmer-gradient text-slate-800 flex flex-col items-center py-12 px-6 relative animate-fadeIn">
+    <div className="min-h-screen farmer-gradient text-slate-800 flex flex-col items-center py-6 md:py-12 px-4 md:px-6 relative animate-fadeIn">
       {/* Soft Background Elements */}
       <div className="fixed inset-0 pointer-events-none opacity-50">
         <div className="absolute top-0 left-0 w-64 h-64 bg-green-100 rounded-full blur-3xl"></div>
@@ -26,7 +29,7 @@ const LandingPage = ({ onEnterChat }) => {
           </div>
         </div>
 
-        <h1 className="text-5xl md:text-7xl font-bold mb-4 tracking-tight text-green-900 animate-slideUp" style={{ animationDelay: "0.1s" }}>
+        <h1 className="text-4xl md:text-7xl font-bold mb-4 tracking-tight text-green-900 animate-slideUp" style={{ animationDelay: "0.1s" }}>
           KissanSeva AI
         </h1>
 
@@ -515,6 +518,7 @@ const FarmerChatbot = () => {
   const [isListening, setIsListening] = useState(false); // Voice state
   const [language, setLanguage] = useState("en-US"); // Language state for voice
   const [imageLanguage, setImageLanguage] = useState("en"); // Language state for image
+  const [isSidebarOpen, setIsSidebarOpen] = useState(false); // Mobile sidebar toggle
   const recognitionRef = useRef(null); // Voice ref
   const messagesEndRef = useRef(null);
   const chatContainerRef = useRef(null);
@@ -677,10 +681,16 @@ const FarmerChatbot = () => {
       <header className="bg-white border-b border-slate-200 px-4 py-3 flex flex-col md:flex-row items-center justify-between shadow-sm gap-4 shrink-0">
         {/* Logo and Tagline */}
         <div className="flex items-center gap-3 min-w-fit">
-          <span className="text-3xl">🚜</span>
+          <button 
+            onClick={() => setIsSidebarOpen(!isSidebarOpen)}
+            className="lg:hidden p-2 rounded-lg bg-green-50 text-green-800"
+          >
+            ☰
+          </button>
+          <span className="text-2xl md:text-3xl">🚜</span>
           <div>
-            <h1 className="text-lg font-black text-green-900 leading-tight">KISSANSEVA AI</h1>
-            <p className="text-[9px] text-slate-400 font-bold uppercase tracking-[0.2em]">Precision Agriculture</p>
+            <h1 className="text-base md:text-lg font-black text-green-900 leading-tight">KISSANSEVA AI</h1>
+            <p className="text-[8px] md:text-[9px] text-slate-400 font-bold uppercase tracking-[0.2em]">Precision Agriculture</p>
           </div>
         </div>
 
@@ -716,9 +726,23 @@ const FarmerChatbot = () => {
         </div>
       </header>
 
-      <main className="flex-1 flex flex-col lg:flex-row p-4 md:p-6 gap-6 min-h-0">
+        <main className="flex-1 flex flex-col lg:flex-row p-4 md:p-6 gap-6 min-h-0 relative">
         {/* Simple Sidebar */}
-        <aside className="lg:w-80 flex flex-col gap-4 overflow-y-auto pr-2 custom-scrollbar">
+        <div className={`
+          absolute inset-0 bg-black/50 z-40 lg:hidden transition-opacity
+          ${isSidebarOpen ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"}
+        `} onClick={() => setIsSidebarOpen(false)}></div>
+
+        <aside className={`
+          fixed lg:static inset-y-0 left-0 w-80 bg-[#fdfcf7] lg:bg-transparent z-50 transform transition-transform duration-300
+          ${isSidebarOpen ? "translate-x-0" : "-translate-x-full lg:translate-x-0"}
+          flex flex-col gap-4 overflow-y-auto p-4 lg:p-0 border-r lg:border-r-0 border-slate-200 shadow-xl lg:shadow-none
+        `}>
+          <div className="flex justify-between items-center lg:hidden mb-2">
+            <h2 className="font-bold text-green-900">Tools</h2>
+            <button onClick={() => setIsSidebarOpen(false)} className="p-2 text-slate-500">✕</button>
+          </div>
+
           <div className="organic-card p-5">
             <WeatherForecast />
           </div>

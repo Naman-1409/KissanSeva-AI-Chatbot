@@ -38,3 +38,5 @@ node_modules/
 # Ignore uploads and vector stores
 uploads/
 vector_store/
+backend/data/
+
